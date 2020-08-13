@@ -1,0 +1,893 @@
+_ _ _ _ _ _ _ _ concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene concept:event _ _ _ _ _ _ _ concept:transportation concept:transportation
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ concept:nonneginteger+concept:mlalgorithm _ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _
+concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ concept:date concept:date _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:city _ _ _
+_ concept:televisionshow concept:televisionshow _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _ _ _ _ concept:time concept:time _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date
+_ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ concept:televisionshow concept:televisionshow _ _ _ _ concept:time concept:time
+_ _ concept:ethnicgroup+concept:river _ concept:city+concept:location _ _ _ _ _ _ _ _
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _
+_ _ _ _ _ _ _ concept:event concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _
+_ _ _ _ _ _ _ concept:televisionshow+concept:sportsgame
+_ _ concept:physicalaction concept:physicalaction _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:city _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:event _ _
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event _ _
+_ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:event _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event _ _ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:county+concept:city+concept:geopoliticallocation
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _
+_ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ _ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ _ _ _ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _
+_ _ _ _ _ concept:city _ concept:city+concept:location
+_ _ _ _ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _
+_ _ _ _ _ _ _ _ concept:city
+_ _ _ _ _ _ _ _ _ _ concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:ethnicgroup+concept:river _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ concept:ethnicgroup+concept:river _ concept:awardtrophytournament _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization _ concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:city+concept:visualizablescene _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ concept:city+concept:visualizablescene
+_ _ _ _ concept:televisionshow+concept:date concept:televisionshow+concept:date _ _ _ concept:geopoliticallocation+concept:city _ concept:time concept:time
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:date concept:televisionshow+concept:date _ _ concept:politicsblog+concept:newspaper+concept:blog+concept:musicartist+concept:website concept:politicsblog+concept:newspaper+concept:blog+concept:musicartist+concept:website _
+_ _ _ _ _ _ concept:televisionshow+concept:date concept:televisionshow+concept:date _ concept:time concept:time _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:televisionshow+concept:date concept:televisionshow+concept:date _ _ _ concept:geopoliticallocation+concept:city _ concept:time concept:time
+_ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:city _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _ concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _ concept:city _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+concept:televisionshow concept:televisionshow _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ concept:time concept:time _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ _ _ _ _ _ _ concept:ethnicgroup+concept:river _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ concept:televisionshow+concept:dayofweek concept:physicalaction _ _ _ _ _ _ concept:city+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation
+_ _ _ _ _ concept:televisionshow+concept:dayofweek _ concept:city concept:city+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:cardgame+concept:geopoliticallocation+concept:stateorprovince _ _ _ _ _ _ _ _ _ _
+_ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ concept:televisionshow+concept:dayofweek _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:city
+_ _ _ _ _ _ _ concept:televisionshow+concept:sportsgame _ _ _ _ concept:city
+_ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time _ _ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city
+_ concept:televisionshow+concept:dayofweek concept:book+concept:transportation+concept:time _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:city _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:city+concept:location concept:newspaper+concept:location+concept:organization+concept:stateorprovince+concept:geopoliticallocation concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:organization+concept:geopoliticallocation+concept:stateorprovince+concept:newspaper
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:organization+concept:geopoliticallocation+concept:stateorprovince+concept:newspaper _ _ concept:city+concept:visualizablescene _ _ concept:time concept:time
+_ _ _ _ _ _ concept:city+concept:visualizablescene _ concept:city+concept:location _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date
+_ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:organization+concept:company+concept:transportation concept:organization+concept:company+concept:transportation
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:televisionshow
+_ _ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:county+concept:city+concept:geopoliticallocation _ _ _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:month+concept:drug _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ _ _ _ _ _ _
+_ _ _ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:month+concept:drug concept:parlourgame concept:parlourgame
+_ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _
+_ _ _ _ concept:awardtrophytournament+concept:year _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ concept:city concept:airport concept:city _ _ _ concept:city
+_ _ _ _ _ _ concept:city _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ _ _ concept:time concept:time _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ concept:city _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:city _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ concept:year _ concept:televisionshow+concept:dayofweek+concept:date _ concept:city _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _
+_ _ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ concept:time concept:time
+_ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:cardgame+concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ concept:year _ concept:city _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ concept:awardtrophytournament _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:location+concept:televisionshow+concept:geopoliticallocation+concept:academicfield _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ _ _ _ concept:televisionshow+concept:dayofweek
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:city+concept:location _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city _ _ _ _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ concept:time concept:time
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:city _ concept:city _ concept:time concept:time
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:city
+_ _ _ _ concept:city _ concept:county+concept:city+concept:geopoliticallocation
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:city _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city _ _ _ _
+_ _ _ _ _ _ _
+_ _ concept:stateorprovince+concept:ethnicgroup _ _ _ _ _
+_ _ concept:stateorprovince+concept:ethnicgroup _ _ _ _ _ concept:awardtrophytournament+concept:year
+_ _ concept:stateorprovince+concept:ethnicgroup _ _ _ _ _
+_ _ _ _ _ concept:ethnicgroup+concept:river _ _ _ _ _ concept:city+concept:visualizablescene concept:event concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization concept:geopoliticalorganization+concept:cardgame+concept:geopoliticallocation _ _ _ _ _ _
+_ _ _ _ _ concept:ethnicgroup+concept:river _ _ _ _ _ concept:city+concept:visualizablescene concept:event concept:geopoliticallocation concept:geopoliticallocation _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation concept:geopoliticallocation
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ concept:awardtrophytournament _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:year _
+_ _ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ concept:hotel+concept:organization+concept:company _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ concept:televisionshow+concept:dayofweek
+_ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ concept:physicalaction
+_ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation concept:sportsleague+concept:stateorprovince+concept:port+concept:geopoliticallocation+concept:academicfield
+_ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:geopoliticallocation concept:geopoliticalorganization+concept:geopoliticallocation
+_ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:geopoliticallocation concept:geopoliticalorganization+concept:geopoliticallocation
+_ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:geopoliticallocation concept:geopoliticalorganization+concept:geopoliticallocation
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ concept:organization+concept:geopoliticallocation+concept:country+concept:geopoliticalorganization concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city
+_ _ _ _ concept:city _ concept:city+concept:location
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ concept:city _ concept:city+concept:location _ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction
+_ _ _ _ _ _ _ _ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:county+concept:city+concept:geopoliticallocation
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:county+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek
+_ _ concept:televisionshow+concept:dayofweek _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ _ _ _ _ concept:awardtrophytournament+concept:year _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ _ _ _ _ _ concept:time concept:time concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:televisionshow+concept:dayofweek _ _ concept:physicalaction _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ concept:physicalaction _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:televisionshow+concept:dayofweek _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation concept:televisionshow+concept:dayofweek _
+_ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:mldataset+concept:mlalgorithm+concept:mlmetric+concept:physicsterm _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:hotel+concept:location+concept:city+concept:visualizablescene+concept:trainstation+concept:airport
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ concept:ethnicgroup+concept:river _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:televisionshow+concept:dayofweek _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:geopoliticalorganization+concept:city concept:televisionshow+concept:dayofweek _
+_ _ _ concept:geopoliticalorganization+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek _
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:hotel+concept:organization+concept:company _
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ concept:newspaper
+_ _ _ _ _ _ _
+_ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:city concept:airport _ concept:time concept:time
+_ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:city _ _ concept:time concept:time
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city
+_ _ _ _ _
+_ _ _ concept:city _ concept:city+concept:location concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction
+_ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:televisionshow+concept:dayofweek
+_ _ _ concept:geopoliticallocation concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene concept:newspaper+concept:location+concept:organization+concept:stateorprovince+concept:geopoliticallocation
+_ _ _ concept:geopoliticallocation concept:geopoliticallocation concept:event _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince+concept:trainstation+concept:geopoliticallocation
+_ _ _ concept:geopoliticallocation concept:geopoliticallocation concept:event _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince+concept:trainstation+concept:geopoliticallocation concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince+concept:trainstation+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ concept:event concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location _ concept:geopoliticallocation concept:geopoliticallocation concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ concept:city+concept:visualizablescene
+concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:televisionshow+concept:dayofweek+concept:date _ _
+concept:televisionshow+concept:dayofweek+concept:date _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:televisionshow+concept:dayofweek+concept:date _ _
+concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ _ _ concept:awardtrophytournament+concept:year _ _
+_ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ concept:time concept:time
+_ _ _ _ _ concept:televisionshow+concept:dayofweek concept:book+concept:transportation+concept:time
+_ _ _ _ _ _ _ _ _
+concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:county+concept:city+concept:geopoliticallocation _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+concept:county+concept:city+concept:geopoliticallocation _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek _
+concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:county+concept:city+concept:geopoliticallocation _ _ concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:televisionshow concept:televisionshow
+_ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _
+concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _
+concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city concept:event concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ concept:city+concept:visualizablescene
+_ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:time concept:time
+_ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ concept:city+concept:visualizablescene concept:musicartist concept:geopoliticallocation+concept:city _ _ _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _
+_ _ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:hotel+concept:beach+concept:attraction+concept:geopoliticallocation+concept:city concept:hotel+concept:beach+concept:attraction+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:televisionshow+concept:dayofweek _ _ concept:month _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:county+concept:city+concept:geopoliticallocation
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:awardtrophytournament+concept:year _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ _ _
+_ _ _ concept:awardtrophytournament+concept:year+concept:mldataset+concept:physicsterm _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:automobilemodel+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:physicsterm _
+_ _ _ _ _ concept:televisionshow+concept:sportsgame _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city concept:organization+concept:geopoliticallocation+concept:stateorprovince+concept:newspaper
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ _ concept:city+concept:visualizablescene concept:event concept:city
+_ _ _ _
+_ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _
+_ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:musicartist _ _ _
+_ _ _ _ _
+_ _ _ _ concept:newspaper _ _ concept:geopoliticallocation+concept:city concept:musicartist _ _ _
+_ _ _ _
+_ _ _ _ concept:newspaper _ _ concept:geopoliticallocation+concept:city concept:musicartist _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:airport _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _ concept:cardgame+concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city _ _ _ concept:videogame+concept:time
+_ _ _ _ _ concept:city+concept:visualizablescene concept:musicartist concept:city _ _ _ _ _ _ _ _ _ _ _ _ concept:mlmetric+concept:time concept:mlmetric+concept:time _ _ _ _ _ _ _ _
+_ _ _ _ concept:transportation concept:transportation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ _ concept:book+concept:color+concept:time concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ concept:year
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ concept:awardtrophytournament+concept:year
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:city _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ concept:city+concept:visualizablescene concept:event concept:city
+_ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong
+_ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:city
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:city
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _ _
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:city
+_ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:city _ _
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city
+_ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city
+_ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:city _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city _ _ _ concept:videogame+concept:time _ _ _ _ _
+_ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:city
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:city
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ concept:televisionshow concept:televisionshow _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ _ _ _ _
+_ _ _ _ concept:city+concept:visualizablescene concept:musicartist concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:airport
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:county+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek+concept:date _ _
+_ _ _ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:televisionshow+concept:dayofweek+concept:date _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location concept:event _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location concept:airport
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location concept:event _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ concept:mldataset _ _ _ concept:airport
+_ _ _ _ _ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:airport
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ concept:time concept:time
+_ _ _ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ _ concept:time concept:time _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _
+_ _ _ _ _
+_ _ concept:geopoliticallocation+concept:stateorprovince+concept:location concept:airport
+_ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city
+_ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _
+_ _
+_ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:city+concept:visualizablescene concept:musicartist concept:city
+_ _ _
+_ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city _ _ _ concept:videogame+concept:time
+_ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city _ concept:videogame+concept:time
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:cardgame+concept:geopoliticallocation+concept:stateorprovince+concept:newspaper _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ concept:newspaper _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:city+concept:visualizablescene concept:musicartist concept:city
+_ _ _ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location _ _
+_ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ concept:awardtrophytournament+concept:year+concept:mldataset+concept:physicsterm
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city concept:nonneginteger+concept:mlalgorithm _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ _ _ concept:time concept:time _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:city _
+_ _ _ _
+_ _ _ concept:transportation concept:transportation _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _
+_ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:city+concept:location _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:city
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:city
+_ _ _ _ _ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _
+concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _
+_ _ _ _
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _ _ _ concept:time concept:time
+_ _ _ _
+_ concept:city+concept:visualizablescene concept:event concept:geopoliticallocation+concept:city
+_ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene concept:nonneginteger+concept:mlalgorithm _ _ concept:mlmetric+concept:time concept:mlmetric+concept:time concept:televisionshow+concept:dayofweek+concept:date
+_ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:time concept:time concept:newspaper
+_ _ _ _
+_ _ _ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica concept:event concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica concept:event concept:geopoliticallocation+concept:city
+_ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:visualizablescene concept:visualizablescene
+_ _ _ _ _ concept:visualizablescene concept:visualizablescene
+_ _ _ _ concept:visualizablescene concept:visualizablescene concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:location _
+_ _ _ _ _ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _
+_ _ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city _ concept:time concept:time _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _
+_ _ _ _ _ _ concept:person
+_ _ _ _ _ _ concept:city+concept:visualizablescene _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _
+_ _ _ _
+_ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ _
+_ _ _ concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:geopoliticalorganization+concept:city _ concept:televisionshow+concept:dayofweek
+_ _ _ concept:geopoliticalorganization+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:politician+concept:geopoliticallocation+concept:city
+_ _
+_ _ _ concept:politician+concept:geopoliticallocation+concept:city
+_ _ _ concept:politician+concept:geopoliticallocation+concept:city
+_ _ _ _ concept:politician+concept:geopoliticallocation+concept:city
+_ concept:politician+concept:geopoliticallocation+concept:city
+_ concept:politician+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:politician+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ concept:politician+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ concept:geopoliticallocation concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ concept:geopoliticallocation concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:city _ concept:city+concept:location _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:city+concept:location _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:televisionshow+concept:dayofweek
+_ _ _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ _ concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ concept:city+concept:visualizablescene
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek
+_ _ _ concept:time concept:time _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:videogame+concept:time
+_ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city concept:event _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date concept:physicalaction
+_ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:city+concept:location concept:televisionshow concept:televisionshow
+_ _ _ _ _ _ _ _ _ concept:county+concept:city+concept:geopoliticallocation _ concept:city+concept:location concept:televisionshow concept:televisionshow
+_ _ _ _ _ _ _ _ _ _ _ _ concept:city+concept:location _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:city+concept:location _ _ concept:date concept:date
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ concept:televisionshow+concept:dayofweek _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date concept:physicalaction
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek+concept:date _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ concept:biotechcompany
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ _ concept:biotechcompany concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:biotechcompany _ _ _ _ _ _
+_ _ _ _ _ concept:biotechcompany _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ concept:mldataset concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ _ concept:mldataset concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _ _ _ _ _ concept:airport+concept:geopoliticalorganization+concept:location+concept:geopoliticallocation+concept:city
+_ _ concept:mldataset concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _
+_ _ _ _ _ concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _
+_ _ _ concept:televisionshow+concept:dayofweek _ _ concept:geopoliticallocation+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city
+_ _ _ concept:televisionshow+concept:dayofweek _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:city
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _
+_ concept:nonneginteger+concept:mlalgorithm _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _
+_ _ _ concept:geopoliticalorganization+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:city
+concept:televisionshow+concept:dayofweek+concept:date _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:biotechcompany
+_ _ _ concept:geopoliticallocation+concept:city _ _ _ concept:biotechcompany
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:county+concept:city+concept:geopoliticallocation _ concept:currency concept:currency
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+concept:geopoliticallocation+concept:city _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek
+concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ _ concept:televisionshow+concept:dayofweek _
+concept:city _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+concept:geopoliticallocation+concept:city _ _ concept:televisionshow+concept:dayofweek+concept:date _
+concept:geopoliticalorganization+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ _
+concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticalorganization+concept:city _ concept:book+concept:color+concept:time
+concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _
+_ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ _
+concept:county+concept:city+concept:geopoliticallocation _ concept:city+concept:location _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ _
+concept:city+concept:location _ concept:county+concept:city+concept:geopoliticallocation concept:televisionshow+concept:dayofweek _
+concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:musicartist concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek
+concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:musicartist concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek
+concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek _
+concept:city _ _ _ concept:televisionshow+concept:dayofweek _
+concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek _
+_ _ concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek+concept:date _
+_ concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ _ concept:televisionshow+concept:dayofweek+concept:date
+concept:geopoliticallocation+concept:city+concept:geopoliticalorganization concept:event _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date concept:physicalaction
+concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene concept:event concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek
+_ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _ concept:time concept:time
+_ _ _ _ _ _ concept:musician+concept:politicianus+concept:person
+_ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:ethnicgroup+concept:river _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ concept:geopoliticalorganization+concept:city
+_ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ _ _ _ concept:transportation+concept:building+concept:visualizablescene+concept:airport concept:transportation+concept:building+concept:visualizablescene+concept:airport _ concept:city+concept:location
+_ _ _ _ _ _ _ _ _ _ _ concept:city+concept:location
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ concept:city+concept:location
+_ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:chemical+concept:agriculturalproduct+concept:food _
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:chemical+concept:agriculturalproduct+concept:food _
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:geopoliticallocation+concept:city+concept:visualizablescene
+_ _ _ _ _ _ concept:time concept:time _ concept:time concept:time
+_ _ _ _ _ _ _ _ concept:awardtrophytournament
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ concept:time concept:time
+_ _ _ _ _ _ _
+_ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ concept:newspaper _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ concept:time concept:time
+_ _ _ _ concept:newspaper _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:newspaper _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:time concept:time _ concept:time concept:time
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:awardtrophytournament
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ concept:time concept:time
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:location _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ concept:time concept:time
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _ concept:city _ _ _ _ _ _ _ _ concept:awardtrophytournament _ _ _
+_ _ _ _ _ concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time
+_ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:city _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ _ _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:airport
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ concept:videogame+concept:time _ _ _ concept:time concept:time
+_ _ _ _ concept:organization+concept:city+concept:geopoliticallocation+concept:stateorprovince _ _ _ concept:geopoliticallocation+concept:city
+_ _ concept:organization+concept:city+concept:geopoliticallocation+concept:stateorprovince _ _ _ concept:geopoliticallocation+concept:city _ _
+_ _ concept:organization+concept:city+concept:geopoliticallocation+concept:stateorprovince _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _
+_ _ concept:organization+concept:company+concept:transportation concept:organization+concept:company+concept:transportation _ _ _ concept:geopoliticallocation+concept:city
+_ _ concept:organization+concept:company+concept:transportation concept:organization+concept:company+concept:transportation _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ concept:organization+concept:company+concept:transportation concept:organization+concept:company+concept:transportation _
+_ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ _ _ _ _ concept:videogame+concept:time
+_ _ _ _ _ concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:televisionshow+concept:dayofweek _ concept:city concept:city+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation
+_ _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:city+concept:geopoliticallocation concept:cardgame+concept:geopoliticallocation+concept:stateorprovince _ _ _ _ _ _
+_ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation
+_ _ _ _ _ _ concept:televisionshow+concept:dayofweek _ _ concept:geopoliticalorganization+concept:city+concept:visualizablescene+concept:geopoliticallocation _ concept:city
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ concept:ethnicgroup+concept:river
+_ _ _ _ _ _ _ _ concept:ethnicgroup+concept:river _ _ _ concept:awardtrophytournament _
+_ _ _ _ _ _ _ _ _ _ concept:televisionshow concept:televisionshow _ _ _ _ _
+_ _ _ _ concept:hotel+concept:beach+concept:attraction+concept:geopoliticallocation+concept:city concept:hotel+concept:beach+concept:attraction+concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ concept:city concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization _ concept:city
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:cardgame+concept:geopoliticallocation+concept:city concept:airport
+_ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization concept:airport
+_ _ _ _ _ concept:attraction+concept:geopoliticalorganization+concept:location+concept:organization+concept:visualizablescene+concept:sportsteam+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ _
+_ _ _ _ _ _ _ _ _ concept:city concept:geopoliticallocation+concept:stateorprovince+concept:newspaper+concept:location concept:geopoliticallocation+concept:stateorprovince+concept:newspaper+concept:location _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location
+_ _ _ _ _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:stateorprovince+concept:location _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ _ _ concept:televisionshow+concept:musicartist+concept:dayofweek+concept:date _ _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince _ _ _
+_ _ _ _ _ _ _ _ concept:city concept:geopoliticallocation+concept:stateorprovince+concept:newspaper+concept:location concept:geopoliticallocation+concept:stateorprovince+concept:newspaper+concept:location _ _ concept:televisionshow+concept:dayofweek
+_ _ _ _ _ concept:geopoliticalorganization+concept:person+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:visualizablescene _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _ concept:televisionshow+concept:date concept:televisionshow+concept:date
+_ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date concept:book+concept:transportation+concept:time _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:chemical+concept:agriculturalproduct+concept:food _ _ concept:geopoliticallocation+concept:city concept:airport _ _ _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:ethnicgroup+concept:river _ _ concept:city+concept:location _ _ _ _ _ concept:mlmetric+concept:time concept:mlmetric+concept:time
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization concept:boardgame+concept:location+concept:organization+concept:stateorprovince+concept:traditionalgame+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:city
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:ethnicgroup+concept:river _ _ concept:geopoliticallocation+concept:city _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city
+_ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:city
+_ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:city _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:event concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:event concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ concept:time concept:time
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city concept:event concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city _ concept:stateorprovince+concept:geopoliticallocation+concept:city concept:stateorprovince+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:event concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:city+concept:personsouthamerica concept:city+concept:personsouthamerica _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:televisionshow+concept:dayofweek+concept:date
+_ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization _ concept:city _ concept:televisionshow+concept:dayofweek
+_ _ _ concept:city _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:televisionshow+concept:dayofweek
+_ concept:ethnicgroup+concept:river _ _ concept:geopoliticallocation+concept:city _ concept:stadiumoreventvenue+concept:geopoliticalorganization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ concept:awardtrophytournament+concept:year _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization _ _ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:city+concept:geopoliticalorganization+concept:visualizablescene _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ concept:nonneginteger+concept:mlalgorithm _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:event _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:monument+concept:trail+concept:jobposition
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:organization+concept:visualizablescene+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:monument+concept:trail+concept:jobposition
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong concept:geopoliticalorganization+concept:county+concept:geopoliticallocation+concept:city+concept:musicsong _ _
+_ _ _ _ _ _ _ concept:city _ concept:geopoliticallocation+concept:city

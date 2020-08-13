@@ -1,0 +1,700 @@
+_ concept:female+concept:personcanada concept:female+concept:personcanada _ _ _ _ _
+_ _ _ _ concept:nonneginteger concept:journalist+concept:blog+concept:company+concept:person+concept:website+concept:publication+concept:magazine _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:cardgame _
+_ _ _ _ _ _ _ _ _
+_ concept:journalist concept:journalist _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:country
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:location+concept:televisionshow+concept:geopoliticallocation+concept:academicfield
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:country+concept:geopoliticalorganization concept:geopoliticallocation+concept:country+concept:geopoliticalorganization concept:geopoliticallocation+concept:country+concept:geopoliticalorganization _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization+concept:location concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization+concept:location
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:city+concept:geopoliticallocation
+_ _ _ _ _ _ _ concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric _
+_ _ _ _ concept:nonneginteger _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ concept:musicsong+concept:person
+_ _ _ _ _ _ _ _ _ _
+_ concept:sportsevent+concept:parlourgame concept:sportsevent+concept:parlourgame _ concept:jobposition+concept:televisionstation+concept:writer+concept:radiostation _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ concept:visualartist _ _ _ _ _
+_ _ _ _ _
+_ _ concept:jobposition+concept:visualartform _ _ _ _
+_ _ _ _ _ _ concept:televisionshow+concept:nonneginteger _
+_ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:geopoliticalorganization+concept:cardgame+concept:geopoliticallocation
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ concept:musician+concept:personaustralia+concept:scientist concept:musician+concept:personaustralia+concept:scientist
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:month+concept:date _ _ _
+_ _ _ concept:celebrity+concept:personnorthamerica+concept:female+concept:director concept:celebrity+concept:personnorthamerica+concept:female+concept:director
+_ _ concept:newspaper concept:year+concept:musicalbum _ concept:televisionshow _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue
+_ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ _ _ _
+_ _ _ _ concept:country+concept:island+concept:geopoliticallocation+concept:city _ concept:nonneginteger _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:nonneginteger
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:ethnicgroup _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame
+_ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _
+_ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ concept:televisionshow+concept:sportsgame _ _ _ _ concept:televisionshow+concept:parlourgame+concept:mlalgorithm _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:time concept:time _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ concept:book+concept:musicsong _
+_ _ _ _ concept:candy
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ concept:person _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:televisionshow+concept:dayofweek+concept:date _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:candy
+_ _ _ _ _ _ _ _
+_ _ concept:jobposition+concept:visualartform _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric
+_ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue
+_ _ _ _
+_ _ _ _ _
+_ _ _ _ _ concept:book+concept:transportation+concept:time _
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:agriculturalproduct+concept:book _ _
+_ _ _ _ _ _ _ _ _ _ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:agriculturalproduct+concept:meat+concept:animal concept:geopoliticallocation+concept:geopoliticalorganization concept:geopoliticallocation+concept:geopoliticalorganization
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ concept:person _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ concept:nonneginteger _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ concept:beverage
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:book+concept:transportation+concept:time _ _ concept:automobilemodel _
+_ _ _ _ _ concept:county+concept:governmentorganization+concept:geopoliticallocation+concept:stateorprovince concept:county+concept:governmentorganization+concept:geopoliticallocation+concept:stateorprovince concept:county+concept:governmentorganization+concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ concept:dateliteral+concept:year+concept:date
+_ _ _ _ _ _
+_ _ _ _ concept:televisionshow+concept:nonneginteger concept:musicartist+concept:geometricshape _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization concept:geopoliticalorganization _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame _ concept:stateorprovince
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:city
+_ _ _ _ _ concept:city concept:island+concept:geopoliticalorganization+concept:stateorprovince
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ concept:musician concept:musician _ _
+_ _ _ _ _ _ _ concept:musicartist+concept:geopoliticallocation+concept:country+concept:musicalbum _ concept:nonneginteger+concept:year+concept:mldataset+concept:awardtrophytournament+concept:physicsterm _
+_ _ _ _ concept:programminglanguage+concept:person _ _ _ _ _ _
+_ _ _ _ _ _ concept:parlourgame _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:candy
+_ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:year _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:militaryconflict+concept:musicalbum+concept:sportsgame concept:militaryconflict+concept:musicalbum+concept:sportsgame _ _ _
+_ _ _ _ _ _ concept:country+concept:geopoliticallocation+concept:city _ _ _ _
+_ _ _ _ concept:coach+concept:personafrica+concept:person+concept:personmexico+concept:actor concept:coach+concept:personafrica+concept:person+concept:personmexico+concept:actor _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ concept:year+concept:musicalbum _ _ _ concept:island+concept:geopoliticalorganization+concept:stateorprovince
+_ _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year _ concept:date concept:date
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:televisionshow+concept:parlourgame+concept:mlalgorithm _ _ _ _
+concept:person _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ concept:comedian+concept:female+concept:personcanada+concept:actor+concept:celebrity concept:comedian+concept:female+concept:personcanada+concept:actor+concept:celebrity _ _ _ _ _ _
+_ _ _ _ concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _
+_ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:politician+concept:geopoliticallocation+concept:city _ concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ concept:jobposition+concept:visualartform _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:organization+concept:geopoliticallocation _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:televisionshow+concept:nonneginteger _
+_ _ _ concept:televisionshow+concept:nonneginteger _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:location+concept:animal+concept:geopoliticallocation _ _ _ _
+_ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:city concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ concept:visualizablescene
+_ _ _ _ _ _ _ _
+_ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:country+concept:sportsteam _ concept:skyscraper concept:skyscraper _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:company
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:city+concept:country+concept:stateorprovince _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ concept:jobposition+concept:visualartform _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _
+_ concept:company _ _ _ _ _ _ _ concept:fish concept:fish
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:musicartist concept:musicartist _ _ _ _ concept:musicartist+concept:geopoliticallocation+concept:country+concept:musicalbum _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:visualizablescene concept:geopoliticallocation+concept:visualizablescene concept:geopoliticallocation+concept:visualizablescene concept:geopoliticallocation+concept:visualizablescene concept:geopoliticallocation+concept:visualizablescene _ _ _
+_ _ _ _ _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:physicsterm
+_ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation concept:geopoliticallocation concept:geopoliticallocation concept:musicartist concept:geopoliticalorganization+concept:country+concept:geopoliticallocation
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:musician+concept:coach+concept:personafrica+concept:comedian+concept:professor+concept:athlete+concept:personaustralia+concept:personnorthamerica+concept:personmexico+concept:ceo+concept:personcanada+concept:male+concept:personeurope+concept:personus+concept:actor+concept:celebrity concept:musician+concept:coach+concept:personafrica+concept:comedian+concept:professor+concept:athlete+concept:personaustralia+concept:personnorthamerica+concept:personmexico+concept:ceo+concept:personcanada+concept:male+concept:personeurope+concept:personus+concept:actor+concept:celebrity
+_ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:geopoliticalorganization concept:politicianus+concept:stateorprovince
+_ _ _ _
+_ _ _ _ concept:candy _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _
+_ _ _ _ concept:musicsong concept:musicsong _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticalorganization+concept:building+concept:county+concept:airport concept:geopoliticalorganization+concept:building+concept:county+concept:airport _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ concept:musician+concept:criminal+concept:celebrity concept:musician+concept:criminal+concept:celebrity
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:parlourgame concept:parlourgame
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ _ _ concept:country+concept:geopoliticallocation+concept:city concept:musicsong concept:musicsong
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ concept:person+concept:date _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:country _ concept:parlourgame concept:parlourgame _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _ _ concept:country+concept:island+concept:geopoliticallocation+concept:city
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+concept:nonneginteger+concept:mldataset+concept:year+concept:automobilemodel+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:physicsterm+concept:date _ _ _ _ _ _ _ _ _ _ _ concept:organization+concept:language+concept:ethnicgroup _ _ _ _ _ _ concept:location+concept:geopoliticalorganization+concept:stateorprovince+concept:geopoliticallocation
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric _ _ _ _ _ _ concept:geopoliticallocation+concept:country
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:year+concept:musicalbum _ _ _ _ concept:geopoliticallocation+concept:stateorprovince concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:jobposition+concept:visualartform _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:televisionshow+concept:nonneginteger
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ concept:jobposition+concept:celebrity _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _
+_ _ _ concept:language+concept:ethnicgroup _ _ _ _ concept:televisionshow+concept:nonneginteger
+_ _ _ _ concept:sportsevent+concept:militaryconflict+concept:musicalbum+concept:sportsgame concept:sportsevent+concept:militaryconflict+concept:musicalbum+concept:sportsgame _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:personaustralia concept:personaustralia _ _ _ _ _ _ _
+_ _ _
+_ _ _ _ _ concept:televisionshow+concept:sportsgame
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:mldataset+concept:awardtrophytournament+concept:physicsterm _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ concept:geopoliticallocation+concept:country+concept:geopoliticalorganization
+_ _ _ _ _ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame
+_ _ _ _ _ _ _ _
+_ concept:island+concept:stateorprovince+concept:televisionshow+concept:book+concept:geopoliticallocation+concept:city _ _ _ _ _ concept:publication concept:publication
+_ _ _ _ concept:nonneginteger _
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ concept:televisionshow+concept:nonneginteger _ _ _ _ _ _ _ concept:city+concept:geopoliticallocation+concept:stateorprovince _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _
+_ _ _ concept:geopoliticalorganization+concept:geopoliticallocation+concept:visualizablescene _ _ _
+_ _ _
+_ _ _ _ _ _ _ _ _ _ concept:writer+concept:female+concept:personaustralia+concept:person+concept:personnorthamerica+concept:personeurope+concept:personus+concept:actor+concept:celebrity concept:writer+concept:female+concept:personaustralia+concept:person+concept:personnorthamerica+concept:personeurope+concept:personus+concept:actor+concept:celebrity
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:mldataset+concept:awardtrophytournament+concept:physicsterm _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:date _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:person
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ concept:personafrica+concept:athlete+concept:personaustralia+concept:director+concept:personmexico+concept:personeurope+concept:actor+concept:personcanada concept:personafrica+concept:athlete+concept:personaustralia+concept:director+concept:personmexico+concept:personeurope+concept:actor+concept:personcanada
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ concept:criminal+concept:personus+concept:politician+concept:male concept:criminal+concept:personus+concept:politician+concept:male _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ concept:person _ _ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+concept:programminglanguage+concept:person _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:year+concept:date
+_ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ concept:televisionshow+concept:sportsgame _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ concept:nonneginteger _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger _ _ _ _ concept:geopoliticalorganization concept:geopoliticalorganization
+_ _ _ concept:language+concept:ethnicgroup _ _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _ _ _ _ concept:nonneginteger+concept:year
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ concept:city+concept:geopoliticallocation+concept:stateorprovince+concept:person _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:company concept:hotel concept:book
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ concept:televisionshow
+_ _ _ _ _ concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric
+_ _ concept:jobposition+concept:visualartform _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:televisionshow+concept:nonneginteger _ _ _ _ concept:country+concept:city
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger _ _
+_ _ _ _ _ _ concept:year+concept:musicalbum _ concept:traditionalgame+concept:parlourgame concept:traditionalgame+concept:parlourgame _ concept:language+concept:ethnicgroup _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ concept:musician+concept:writer+concept:personafrica+concept:comedian+concept:chef+concept:journalist+concept:professor+concept:politicianus+concept:personaustralia+concept:person+concept:director+concept:personnorthamerica+concept:personmexico+concept:personcanada+concept:celebrity+concept:personus+concept:actor+concept:male concept:musician+concept:writer+concept:personafrica+concept:comedian+concept:chef+concept:journalist+concept:professor+concept:politicianus+concept:personaustralia+concept:person+concept:director+concept:personnorthamerica+concept:personmexico+concept:personcanada+concept:celebrity+concept:personus+concept:actor+concept:male _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:person
+_ _ _ _ _ _ _
+_ _ _
+_ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:personafrica+concept:professor+concept:politicianus+concept:person+concept:ceo+concept:celebrity+concept:male concept:personafrica+concept:professor+concept:politicianus+concept:person+concept:ceo+concept:celebrity+concept:male
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:mountain+concept:date
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ concept:musicartist concept:musicartist _ _ _ _ _ concept:furniture+concept:musicartist+concept:person+concept:jobposition+concept:profession _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ concept:musician+concept:actor concept:musician+concept:actor _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:candy _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _
+concept:programminglanguage+concept:person _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:ethnicgroup+concept:person _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:geopoliticallocation+concept:country concept:geopoliticallocation+concept:country _ _ _
+_ _ _ _ _ _ _ concept:nonneginteger _ _
+_ _ concept:televisionshow _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ concept:televisionshow+concept:nonneginteger _ _ _ _
+_ _ _ _ _ _ _ _ concept:island+concept:geopoliticalorganization+concept:country+concept:geopoliticallocation+concept:city
+concept:programminglanguage+concept:person _ _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:automobilemodel+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:physicsterm+concept:date _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:country+concept:river
+_ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue
+_ _ concept:musician concept:musician concept:musician _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:year+concept:musicalbum
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:jobposition+concept:visualartform
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:country+concept:location _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm
+_ _ _ _ _ _ _ _ _ concept:time concept:time
+_ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ concept:parlourgame concept:parlourgame _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:school+concept:university _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:city _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:geopoliticallocation+concept:country _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ concept:musicinstrument _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:musician+concept:musicartist
+_ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:mlsoftware
+_ _ _ _ _ _ _ _ _ concept:nonneginteger _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _
+_ _ _ _ _ _ _ concept:country+concept:location
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ concept:geopoliticallocation+concept:geopoliticalorganization
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:parlourgame concept:parlourgame concept:parlourgame
+_ _ _ _ _ _ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city concept:geopoliticalorganization+concept:location+concept:personnorthamerica+concept:stateorprovince+concept:visualizablescene+concept:geopoliticallocation+concept:city _
+_ _ _ _ _ _ _
+_ _ concept:date _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticallocation+concept:country+concept:geopoliticalorganization
+_ _ _ _ _ concept:date _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:jobposition+concept:visualartform _ _ concept:physicalaction _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:plant+concept:book _ _
+_ _ _ concept:book+concept:transportation+concept:time _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:stateorprovince+concept:ethnicgroup _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ concept:celebrity concept:celebrity _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _ _ _ _ _
+_ concept:musicartist concept:musicartist concept:musicartist _ _ _ _ _ _ concept:sportsevent+concept:militaryconflict+concept:musicalbum+concept:sportsgame _
+_ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric
+concept:programminglanguage+concept:person _ _ _ _ _ _ _ _ _ _ _ _ _ _ concept:televisionshow+concept:nonneginteger
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ concept:month+concept:director+concept:date concept:plant
+_ _ _ _ _
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:politician+concept:geopoliticallocation+concept:city _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ concept:ethnicgroup concept:island+concept:geopoliticallocation+concept:country concept:island+concept:geopoliticallocation+concept:country
+_ _ concept:movie concept:movie _ _ _ _ _ _ _
+_ concept:nonneginteger _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:year+concept:time+concept:programminglanguage+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame+concept:mlmetric+concept:physicsterm _ _ _ _ _ _ concept:geopoliticallocation+concept:country+concept:geopoliticalorganization+concept:sportsteam
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ concept:stateorprovince+concept:hospital _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:organization+concept:geopoliticallocation _
+_ _ _ _ _ _
+_ _ _ _ _ _ concept:televisionshow+concept:jobposition concept:geopoliticalorganization+concept:country+concept:location+concept:televisionshow+concept:geopoliticallocation+concept:academicfield
+_ _ _ _ _ _ _ _ _ _ _ _ concept:musicartist+concept:geopoliticallocation+concept:country+concept:musicalbum _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ concept:televisionshow+concept:nonneginteger
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ concept:company _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:mlsoftware
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:hotel+concept:attraction concept:hotel+concept:attraction _ _ _ _ _ concept:stateorprovince+concept:geopoliticallocation+concept:school+concept:university
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:ethnicgroup _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:traditionalgame+concept:parlourgame concept:traditionalgame+concept:parlourgame
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:ethnicgroup+concept:river _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:book _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ concept:politician+concept:geopoliticallocation+concept:city _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:country concept:country
+_ _ _ _ concept:nonneginteger+concept:year _ _ _
+_ _ concept:dateliteral+concept:year+concept:date _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ concept:nonneginteger+concept:mldataset+concept:year+concept:automobilemodel+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:physicsterm _ _ _ _ _ concept:personus+concept:celebrity concept:personus+concept:celebrity
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:location+concept:nongovorganization+concept:geopoliticallocation concept:geopoliticalorganization+concept:country+concept:location+concept:nongovorganization+concept:geopoliticallocation _ concept:nonneginteger+concept:mldataset+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:mlmetric+concept:physicsterm _ _ _
+_ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:person+concept:location _ concept:geopoliticallocation+concept:stateorprovince+concept:mlsoftware
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ concept:city _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ _ concept:astronaut _ _
+_ _ _ _ _ concept:nonneginteger+concept:year
+_ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ _ _ _ _ _ _ concept:time concept:time _ concept:boardgame+concept:location+concept:organization+concept:stateorprovince+concept:traditionalgame+concept:cardgame+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+concept:programminglanguage+concept:person _ _ _ _ _
+_ _ _ _ concept:profession+concept:nonneginteger+concept:parlourgame
+_ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:island+concept:geopoliticalorganization+concept:country+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date
+_ _ _ _ _
+_ _ _ _ _ _ concept:nonneginteger+concept:year
+_ _ concept:year+concept:date _ _ concept:writer concept:writer
+_ _ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ concept:astronaut _ _ _ _ _ _
+_ _ _ _ concept:personus+concept:writer
+_ _ concept:personeurope+concept:book+concept:monarch _ _ concept:nonneginteger+concept:year+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue+concept:date _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ concept:nonneginteger
+_ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _
+_ _ _ concept:nonneginteger+concept:year _
+_ _ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric _
+_ concept:jobposition+concept:visualartform _ _ _ _ concept:person _ _ _ _
+_ _ _ _ _ _ _ concept:city+concept:geopoliticallocation+concept:stateorprovince _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ concept:nonneginteger _ concept:publication concept:publication
+_ _ _ _ concept:furniture+concept:musicartist+concept:person+concept:jobposition+concept:profession _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:politician+concept:geopoliticallocation+concept:city _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:jobposition+concept:visualartform _ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _
+_ _ _ _ _ _ _ concept:musician _ concept:televisionshow+concept:nonneginteger
+_ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization+concept:location concept:geopoliticallocation+concept:stateorprovince+concept:geopoliticalorganization+concept:location
+_ _ concept:nonneginteger+concept:mlalgorithm _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:braintissue _
+_ _ _ _ _ _ _
+_ _ _ _ _ concept:stateorprovince+concept:ethnicgroup _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:attraction concept:attraction concept:attraction concept:parlourgame concept:parlourgame _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ concept:personcanada+concept:female+concept:celebrity concept:personcanada+concept:female+concept:celebrity _ _ _ concept:beverage
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ concept:personasia concept:personasia _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+_ _ _ _ concept:physicalaction _
+_ _ _ _ _ _ _ _
+_ _ concept:book+concept:transportation+concept:time _
+concept:programminglanguage+concept:person _ _ _ _ _ _ _ _
+_ _ _ _
+_ _ _ _ _ concept:televisionshow _
+_ _ _ _ concept:weatherphenomenon _ _ _ concept:organization+concept:city+concept:geopoliticallocation+concept:stateorprovince
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:athlete+concept:coach+concept:politicianus+concept:director concept:athlete+concept:coach+concept:politicianus+concept:director
+_ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:videogame+concept:programminglanguage+concept:mlmetric+concept:physicsterm+concept:braintissue _ _ _ _ _ concept:geopoliticalorganization+concept:geopoliticallocation+concept:country+concept:person concept:geopoliticalorganization+concept:geopoliticallocation+concept:country+concept:person
+_ _ _ _ _ _ concept:televisionshow+concept:nonneginteger _
+_ _ _ _ concept:nonneginteger+concept:mlalgorithm _ _ concept:time concept:time
+_ _ _ _
+_ _ _ _ _ _ _ _ _ _ concept:skiarea+concept:river concept:skiarea+concept:river concept:country+concept:geopoliticallocation+concept:city
+_ _ _ _ _ _ _ _ _ concept:geopoliticalorganization+concept:country+concept:company+concept:organization+concept:geopoliticallocation _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ concept:language+concept:ethnicgroup _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _
+_ _ _ _
+_ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ concept:plant+concept:book
+_ _ _ concept:politicianus concept:politicianus
+_ _ _ concept:nonneginteger+concept:year+concept:time+concept:mlalgorithm+concept:awardtrophytournament+concept:traditionalgame _ _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric
+_ _ _ _ _ _ concept:nonneginteger+concept:year+concept:time+concept:election+concept:mlalgorithm+concept:awardtrophytournament+concept:programminglanguage+concept:mlmetric _ _ _
+_ _ _ concept:profession+concept:nonneginteger+concept:parlourgame _ _ concept:year+concept:time+concept:programminglanguage+concept:parlourgame+concept:mlalgorithm+concept:awardtrophytournament+concept:archaea+concept:videogame+concept:mlmetric

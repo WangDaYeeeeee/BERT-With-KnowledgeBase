@@ -1,0 +1,13 @@
+model                           intent_acc      slot_f1         semantic_acc    epoch   params
+
+Bert+KnowledgeBase (uni-inte)   97.5 (98.0)     96.1 (98.2)     88.5 (93.8)     40      --task atis --pos --uni_intent --c_dr 0.2 --num_epochs 40
+Bert+KnowledgeBase (no-pos)     98.0 (98.2)     95.8 (98.4)     88.4 (93.2)     20      --task atis --c_dr 0.2 --num_epochs 20
+Bert+KnowledgeBase (unstack)    97.4 (98.0)     96.1 (98.6)     88.6 (93.8)     40      --task atis --pos --unstack --c_dr 0.2 --num_epochs 40
+
+Bert+KnowledgeBase (none)       97.4 (98.2)     96.0 (98.3)     87.8 (93.6)     20      --task atis --pos --kb none --c_dr 0.2 --num_epochs 20
+Bert+KnowledgeBase (NELL)       98.0 (98.4)     96.0 (98.5)     88.6 (93.4)     30      --task atis --pos --kb nell --c_dr 0.2 --num_epochs 30
+Bert+KnowledgeBase (WN)         97.8 (98.2)     95.8 (98.4)     88.2 (93.8)     40      --task atis --pos --kb wn --c_dr 0.2 --num_epochs 40
+Bert+KnowledgeBase (both)       97.9 (98.0)     96.1 (98.5)     89.1 (93.8)     40      --task atis --pos --c_dr 0.2 --num_epochs 40
+
+Bert-SLU                        97.5            96.1            88.2
+Bert+StackPropagation           97.5            96.1            88.6

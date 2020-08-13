@@ -1,0 +1,60 @@
+--task atis --pos --kb wn --num_epochs 15
+Training 15/15: 100%|█| 280/280 [01:25<00:00,  3.29it/s, tr_loss=0.0017775936620
+08/10/2020 20:49:39 - INFO - trainer -   Eval results - epoch=15,	dev,	intent_acc=0.98200,	slot_f1=0.98189,	semantic_acc=0.92400,	loss=0.22935
+08/10/2020 20:49:43 - INFO - trainer -   Eval results - epoch=15,	test,	intent_acc=0.97760,	slot_f1=0.95612,	semantic_acc=0.87794,	loss=0.40201
+
+--task atis --pos --kb wn --num_epochs 20
+Training 20/20: 100%|█| 280/280 [01:23<00:00,  3.34it/s, tr_loss=0.0007913667488
+08/10/2020 19:59:13 - INFO - trainer -   Eval results - epoch=20,	dev,	intent_acc=0.98200,	slot_f1=0.98248,	semantic_acc=0.92800,	loss=0.24379
+08/10/2020 19:59:17 - INFO - trainer -   Eval results - epoch=20,	test,	intent_acc=0.97872,	slot_f1=0.95924,	semantic_acc=0.88802,	loss=0.42609
+
+--task atis --pos --kb wn --num_epochs 25
+Training 25/25: 100%|█| 280/280 [01:23<00:00,  3.36it/s, tr_loss=0.0004602339077
+08/10/2020 21:03:27 - INFO - trainer -   Eval results - epoch=25,	dev,	intent_acc=0.98400,	slot_f1=0.98188,	semantic_acc=0.92800,	loss=0.23310
+08/10/2020 21:03:31 - INFO - trainer -   Eval results - epoch=25,	test,	intent_acc=0.97984,	slot_f1=0.95692,	semantic_acc=0.88018,	loss=0.43474
+
+--task atis --pos --kb wn --num_epochs 30
+Training 30/30: 100%|█| 280/280 [01:22<00:00,  3.38it/s, tr_loss=0.0005969129617
+08/10/2020 20:13:06 - INFO - trainer -   Eval results - epoch=30,	dev,	intent_acc=0.98400,	slot_f1=0.98160,	semantic_acc=0.93000,	loss=0.24634
+08/10/2020 20:13:11 - INFO - trainer -   Eval results - epoch=30,	test,	intent_acc=0.98096,	slot_f1=0.96008,	semantic_acc=0.88914,	loss=0.47161
+
+--task atis --pos --kb wn --num_epochs 35
+Training 35/35: 100%|█| 280/280 [00:55<00:00,  5.08it/s, tr_loss=0.0001789078006
+08/10/2020 21:11:58 - INFO - trainer -   Eval results - epoch=35,	dev,	intent_acc=0.98000,	slot_f1=0.98334,	semantic_acc=0.93000,	loss=0.30430
+08/10/2020 21:12:01 - INFO - trainer -   Eval results - epoch=35,	test,	intent_acc=0.97984,	slot_f1=0.96179,	semantic_acc=0.89026,	loss=0.47711
+
+--task atis --pos --kb wn --num_epochs 40
+Training 40/40: 100%|█| 280/280 [00:50<00:00,  5.57it/s, tr_loss=0.0001233335547
+08/10/2020 20:21:45 - INFO - trainer -   Eval results - epoch=40,	dev,	intent_acc=0.98400,	slot_f1=0.98189,	semantic_acc=0.93200,	loss=0.29030
+08/10/2020 20:21:48 - INFO - trainer -   Eval results - epoch=40,	test,	intent_acc=0.98544,	slot_f1=0.95765,	semantic_acc=0.88578,	loss=0.40157
+
+--task atis --pos --kb wn --num_epochs 45
+Training 45/45: 100%|█| 280/280 [00:50<00:00,  5.50it/s, tr_loss=0.0001018534162
+08/10/2020 21:15:50 - INFO - trainer -   Eval results - epoch=45,	dev,	intent_acc=0.98200,	slot_f1=0.98393,	semantic_acc=0.92800,	loss=0.31586
+08/10/2020 21:15:53 - INFO - trainer -   Eval results - epoch=45,	test,	intent_acc=0.97984,	slot_f1=0.95872,	semantic_acc=0.88690,	loss=0.56210
+
+--task atis --pos --kb wn --num_epochs 50
+Training 50/50: 100%|█| 280/280 [00:53<00:00,  5.27it/s, tr_loss=8.5306981830919
+08/10/2020 20:25:46 - INFO - trainer -   Eval results - epoch=50,	dev,	intent_acc=0.98000,	slot_f1=0.98276,	semantic_acc=0.92400,	loss=0.34722
+08/10/2020 20:25:49 - INFO - trainer -   Eval results - epoch=50,	test,	intent_acc=0.98208,	slot_f1=0.95729,	semantic_acc=0.88466,	loss=0.51636
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--task atis --pos --kb wn --adam_lr 1e-5 --schedule constant --num_epochs 10
+07/21/2020 16:37:47 - INFO - trainer -   Eval results - epoch=10,	dev,	intent_acc=0.98000,	slot_f1=0.97515,	semantic_acc=0.91200,	loss=0.20166
+07/21/2020 15:14:50 - INFO - trainer -   Eval results - epoch=10,	test,	intent_acc=0.97872,	slot_f1=0.95415,	semantic_acc=0.87458,	loss=0.31686
+
+--task atis --pos --kb wn --adam_lr 1e-5 --schedule constant --num_epochs 20
+07/21/2020 16:38:16 - INFO - trainer -   Eval results - epoch=20,	dev,	intent_acc=0.97400,	slot_f1=0.98391,	semantic_acc=0.92200,	loss=0.26590
+07/21/2020 15:35:36 - INFO - trainer -   Eval results - epoch=20,	test,	intent_acc=0.97872,	slot_f1=0.95899,	semantic_acc=0.87906,	loss=0.38295
+
+--task atis --pos --kb wn --adam_lr 1e-5 --schedule constant --num_epochs 30
+07/21/2020 16:38:43 - INFO - trainer -   Eval results - epoch=30,	dev,	intent_acc=0.98200,	slot_f1=0.98539,	semantic_acc=0.93600,	loss=0.24246
+07/21/2020 15:56:13 - INFO - trainer -   Eval results - epoch=30,	test,	intent_acc=0.97536,	slot_f1=0.96096,	semantic_acc=0.88354,	loss=0.42288
+
+--task atis --pos --kb wn --adam_lr 1e-5 --schedule constant --num_epochs 40
+07/21/2020 16:39:10 - INFO - trainer -   Eval results - epoch=40,	dev,	intent_acc=0.98000,	slot_f1=0.98656,	semantic_acc=0.93800,	loss=0.29379
+07/21/2020 16:16:50 - INFO - trainer -   Eval results - epoch=40,	test,	intent_acc=0.97536,	slot_f1=0.96111,	semantic_acc=0.88130,	loss=0.47939
+
+--task atis --pos --kb wn --adam_lr 1e-5 --schedule constant --num_epochs 50
+07/21/2020 16:39:31 - INFO - trainer -   Eval results - epoch=50,	dev,	intent_acc=0.98400,	slot_f1=0.98452,	semantic_acc=0.94200,	loss=0.27228
+07/21/2020 16:37:24 - INFO - trainer -   Eval results - epoch=50,	test,	intent_acc=0.97872,	slot_f1=0.96113,	semantic_acc=0.88802,	loss=0.55212
