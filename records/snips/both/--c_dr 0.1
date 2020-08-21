@@ -56,6 +56,26 @@ Training 25/25: 100%|█| 818/818 [02:32<00:00,  5.36it/s, tr_loss=9.73023074781
 08/09/2020 19:09:33 - INFO - trainer -   Eval results - epoch=25,	dev,	intent_acc=0.98857,	slot_f1=0.96140,	semantic_acc=0.90714,	loss=0.34555
 08/09/2020 19:09:35 - INFO - trainer -   Eval results - epoch=25,	test,	intent_acc=0.98714,	slot_f1=0.96492,	semantic_acc=0.91857,	loss=0.29826
 
+--task snips --pos --schedule cosine --num_epochs 26
+Training 26/26: 100%|█| 818/818 [04:00<00:00,  3.40it/s, tr_loss=6.5453806501021
+08/17/2020 16:29:32 - INFO - trainer -   Eval results - epoch=26,	dev,	intent_acc=0.98286,	slot_f1=0.95913,	semantic_acc=0.90429,	loss=0.45847
+08/17/2020 16:29:36 - INFO - trainer -   Eval results - epoch=26,	test,	intent_acc=0.98000,	slot_f1=0.96298,	semantic_acc=0.91429,	loss=0.34477
+
+--task snips --pos --schedule cosine --num_epochs 27
+Training 27/27: 100%|█| 818/818 [04:26<00:00,  3.07it/s, tr_loss=0.0001250766839
+08/17/2020 16:42:00 - INFO - trainer -   Eval results - epoch=27,	dev,	intent_acc=0.98714,	slot_f1=0.96035,	semantic_acc=0.90714,	loss=0.34605
+08/17/2020 16:42:04 - INFO - trainer -   Eval results - epoch=27,	test,	intent_acc=0.98571,	slot_f1=0.96433,	semantic_acc=0.91143,	loss=0.27289
+
+--task snips --pos --schedule cosine --num_epochs 28
+Training 28/28: 100%|█| 818/818 [03:02<00:00,  4.47it/s, tr_loss=0.0003582704998
+08/17/2020 16:45:43 - INFO - trainer -   Eval results - epoch=28,	dev,	intent_acc=0.98714,	slot_f1=0.95889,	semantic_acc=0.90286,	loss=0.37935
+08/17/2020 16:45:46 - INFO - trainer -   Eval results - epoch=28,	test,	intent_acc=0.98571,	slot_f1=0.96632,	semantic_acc=0.92286,	loss=0.30265
+
+--task snips --pos --schedule cosine --num_epochs 29
+Training 29/29: 100%|█| 818/818 [03:38<00:00,  3.74it/s, tr_loss=4.3229615959699
+08/17/2020 16:58:30 - INFO - trainer -   Eval results - epoch=29,	dev,	intent_acc=0.98571,	slot_f1=0.96171,	semantic_acc=0.90857,	loss=0.41547
+08/17/2020 16:58:33 - INFO - trainer -   Eval results - epoch=29,	test,	intent_acc=0.98000,	slot_f1=0.96082,	semantic_acc=0.91143,	loss=0.33349
+
 --task snips --pos --schedule cosine --num_epochs 30
 Training 30/30: 100%|█| 818/818 [02:23<00:00,  5.71it/s, tr_loss=6.7762447280521
 08/09/2020 17:54:35 - INFO - trainer -   Eval results - epoch=30,	dev,	intent_acc=0.98857,	slot_f1=0.95838,	semantic_acc=0.90571,	loss=0.39106
@@ -70,3 +90,93 @@ Training 35/35: 100%|█| 818/818 [02:29<00:00,  5.48it/s, tr_loss=0.00043697432
 Training 40/40: 100%|█| 818/818 [02:26<00:00,  5.58it/s, tr_loss=2.2916414096929
 08/09/2020 18:04:48 - INFO - trainer -   Eval results - epoch=40,	dev,	intent_acc=0.99000,	slot_f1=0.96442,	semantic_acc=0.91429,	loss=0.38850
 08/09/2020 18:04:50 - INFO - trainer -   Eval results - epoch=40,	test,	intent_acc=0.98571,	slot_f1=0.96379,	semantic_acc=0.91429,	loss=0.31821
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 10
+Training 10/10: 100%|█| 205/205 [01:23<00:00,  2.45it/s, tr_loss=0.0044315466725
+08/18/2020 21:04:25 - INFO - trainer -   Eval results - epoch=10,	dev,	intent_acc=0.99000,	slot_f1=0.95782,	semantic_acc=0.90000,	loss=0.18567
+08/18/2020 21:04:26 - INFO - trainer -   Eval results - epoch=10,	test,	intent_acc=0.98714,	slot_f1=0.96437,	semantic_acc=0.92143,	loss=0.17099
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 20
+Training 20/20: 100%|█| 205/205 [01:23<00:00,  2.45it/s, tr_loss=0.0007462557410
+08/18/2020 21:33:28 - INFO - trainer -   Eval results - epoch=20,	dev,	intent_acc=0.98571,	slot_f1=0.96009,	semantic_acc=0.91000,	loss=0.27145
+08/18/2020 21:33:30 - INFO - trainer -   Eval results - epoch=20,	test,	intent_acc=0.98714,	slot_f1=0.96575,	semantic_acc=0.92000,	loss=0.22683
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 30
+Training 30/30: 100%|█| 205/205 [01:23<00:00,  2.45it/s, tr_loss=0.0004006191832
+08/18/2020 22:19:20 - INFO - trainer -   Eval results - epoch=30,	dev,	intent_acc=0.98571,	slot_f1=0.96007,	semantic_acc=0.90571,	loss=0.30786
+08/18/2020 22:19:21 - INFO - trainer -   Eval results - epoch=30,	test,	intent_acc=0.98429,	slot_f1=0.96684,	semantic_acc=0.92429,	loss=0.26086
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 40
+Training 40/40: 100%|█| 205/205 [01:20<00:00,  2.54it/s, tr_loss=0.0002181592788
+08/18/2020 22:43:53 - INFO - trainer -   Eval results - epoch=40,	dev,	intent_acc=0.98857,	slot_f1=0.96448,	semantic_acc=0.91571,	loss=0.32080
+08/18/2020 22:43:54 - INFO - trainer -   Eval results - epoch=40,	test,	intent_acc=0.98286,	slot_f1=0.96740,	semantic_acc=0.92143,	loss=0.28020
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 50
+Training 50/50: 100%|█| 205/205 [01:23<00:00,  2.45it/s, tr_loss=0.0001502183877
+08/18/2020 23:33:29 - INFO - trainer -   Eval results - epoch=50,	dev,	intent_acc=0.99000,	slot_f1=0.96175,	semantic_acc=0.91571,	loss=0.29656
+08/18/2020 23:33:30 - INFO - trainer -   Eval results - epoch=50,	test,	intent_acc=0.98714,	slot_f1=0.96300,	semantic_acc=0.91571,	loss=0.27213
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 60
+Training 60/60: 100%|█| 205/205 [01:23<00:00,  2.47it/s, tr_loss=5.5958533479630
+08/19/2020 08:57:21 - INFO - trainer -   Eval results - epoch=60,	dev,	intent_acc=0.98429,	slot_f1=0.96033,	semantic_acc=0.91000,	loss=0.38374
+08/19/2020 08:57:22 - INFO - trainer -   Eval results - epoch=60,	test,	intent_acc=0.98286,	slot_f1=0.96519,	semantic_acc=0.91429,	loss=0.26656
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 70
+Training 70/70: 100%|█| 205/205 [01:19<00:00,  2.58it/s, tr_loss=5.0378951833941
+08/19/2020 09:06:53 - INFO - trainer -   Eval results - epoch=70,	dev,	intent_acc=0.98571,	slot_f1=0.96307,	semantic_acc=0.91286,	loss=0.33831
+08/19/2020 09:06:55 - INFO - trainer -   Eval results - epoch=70,	test,	intent_acc=0.98571,	slot_f1=0.96548,	semantic_acc=0.91714,	loss=0.26116
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 80
+Training 80/80: 100%|█| 205/205 [01:22<00:00,  2.49it/s, tr_loss=5.4326420938262
+08/19/2020 10:56:19 - INFO - trainer -   Eval results - epoch=80,	dev,	intent_acc=0.98571,	slot_f1=0.95896,	semantic_acc=0.90000,	loss=0.41833
+08/19/2020 10:56:21 - INFO - trainer -   Eval results - epoch=80,	test,	intent_acc=0.98714,	slot_f1=0.96354,	semantic_acc=0.92000,	loss=0.30316
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 90
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 1 --num_epochs 100
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 10
+Training 10/10: 100%|█| 205/205 [01:19<00:00,  2.59it/s, tr_loss=0.0042071822150
+08/19/2020 09:34:39 - INFO - trainer -   Eval results - epoch=10,	dev,	intent_acc=0.99000,	slot_f1=0.96257,	semantic_acc=0.90857,	loss=0.18977
+08/19/2020 09:34:40 - INFO - trainer -   Eval results - epoch=10,	test,	intent_acc=0.98571,	slot_f1=0.96269,	semantic_acc=0.91286,	loss=0.18829
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 20
+Training 20/20: 100%|█| 205/205 [01:17<00:00,  2.64it/s, tr_loss=0.0008861880847
+08/19/2020 10:08:02 - INFO - trainer -   Eval results - epoch=20,	dev,	intent_acc=0.99000,	slot_f1=0.96062,	semantic_acc=0.91000,	loss=0.21007
+08/19/2020 10:08:03 - INFO - trainer -   Eval results - epoch=20,	test,	intent_acc=0.98714,	slot_f1=0.96515,	semantic_acc=0.91857,	loss=0.22058
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 30
+Training 30/30: 100%|█| 205/205 [01:17<00:00,  2.63it/s, tr_loss=0.0002921648299
+08/19/2020 10:48:34 - INFO - trainer -   Eval results - epoch=30,	dev,	intent_acc=0.98857,	slot_f1=0.96035,	semantic_acc=0.90429,	loss=0.27196
+08/19/2020 10:48:36 - INFO - trainer -   Eval results - epoch=30,	test,	intent_acc=0.98714,	slot_f1=0.96517,	semantic_acc=0.92143,	loss=0.23354
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 40
+Training 40/40: 100%|█| 205/205 [01:18<00:00,  2.63it/s, tr_loss=0.0002015151620
+08/19/2020 11:41:20 - INFO - trainer -   Eval results - epoch=40,	dev,	intent_acc=0.98571,	slot_f1=0.96286,	semantic_acc=0.90857,	loss=0.28142
+08/19/2020 11:41:22 - INFO - trainer -   Eval results - epoch=40,	test,	intent_acc=0.98143,	slot_f1=0.96377,	semantic_acc=0.91571,	loss=0.29845
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 50
+Training 50/50: 100%|█| 205/205 [01:22<00:00,  2.50it/s, tr_loss=9.4169901617200
+08/19/2020 12:06:14 - INFO - trainer -   Eval results - epoch=50,	dev,	intent_acc=0.98857,	slot_f1=0.96171,	semantic_acc=0.91000,	loss=0.32336
+08/19/2020 12:06:15 - INFO - trainer -   Eval results - epoch=50,	test,	intent_acc=0.98571,	slot_f1=0.96521,	semantic_acc=0.92000,	loss=0.28436
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 60
+Training 60/60: 100%|█| 205/205 [01:17<00:00,  2.64it/s, tr_loss=8.8078434685196
+08/19/2020 13:03:49 - INFO - trainer -   Eval results - epoch=60,	dev,	intent_acc=0.98714,	slot_f1=0.96062,	semantic_acc=0.90714,	loss=0.38366
+08/19/2020 13:03:50 - INFO - trainer -   Eval results - epoch=60,	test,	intent_acc=0.98429,	slot_f1=0.96375,	semantic_acc=0.91286,	loss=0.33409
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 70
+Training 70/70: 100%|█| 205/205 [01:22<00:00,  2.50it/s, tr_loss=5.4156117003890
+08/19/2020 14:00:23 - INFO - trainer -   Eval results - epoch=70,	dev,	intent_acc=0.98714,	slot_f1=0.96196,	semantic_acc=0.91286,	loss=0.30985
+08/19/2020 14:00:24 - INFO - trainer -   Eval results - epoch=70,	test,	intent_acc=0.99000,	slot_f1=0.96379,	semantic_acc=0.91857,	loss=0.23961
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 80
+Training 80/80: 100%|█| 205/205 [01:18<00:00,  2.60it/s, tr_loss=0.0001052584119
+08/19/2020 15:10:03 - INFO - trainer -   Eval results - epoch=80,	dev,	intent_acc=0.99000,	slot_f1=0.96335,	semantic_acc=0.91429,	loss=0.35911
+08/19/2020 15:10:05 - INFO - trainer -   Eval results - epoch=80,	test,	intent_acc=0.98286,	slot_f1=0.96207,	semantic_acc=0.91286,	loss=0.34570
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 90
+
+--task snips --pos --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 100

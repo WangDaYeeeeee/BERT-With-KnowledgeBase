@@ -117,9 +117,12 @@ class Trainer(object):
 
             self.writer.add_scalar(f'train/loss', epoch_loss / epoch_steps, epoch + 1)
 
-            if self.args.eval_epochs != 0 and (epoch + 1) % self.args.eval_epochs == 0:
+            if (epoch + 1) % 5 == 0:
                 # log experiment results.
                 self.evaluate('dev', epoch + 1, tensorboard_enabled=True)
+            if self.args.save_epochs != 0 and (epoch + 1) % self.args.save_epochs == 0:
+                # save model.
+                self.save_model(self.args.record_path, epoch + 1)
 
     def evaluate(self, mode, epoch, tensorboard_enabled):
         if mode == 'test':

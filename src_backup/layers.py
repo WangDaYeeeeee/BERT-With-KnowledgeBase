@@ -80,30 +80,31 @@ class KnowledgeIntegrator(nn.Module):
         self.max_concepts_count = args.max_wn_concepts_count + args.max_nell_concepts_count
         self.top_concepts_count = args.top_concepts_count
 
-        wn_concept_vectors = np.array(get_wn_concept_vectors(args))
-        self.wn_concept_embed = nn.Embedding(num_embeddings=len(wn_concept_vectors),
-                                             embedding_dim=KB_EMBEDDING_DIM,
-                                             padding_idx=PAD_WN_CONCEPT_ID)
-        self.wn_concept_embed.weight = nn.Parameter(torch.from_numpy(wn_concept_vectors), requires_grad=False)
+        if self.max_concepts_count > 0:
+            wn_concept_vectors = np.array(get_wn_concept_vectors(args))
+            self.wn_concept_embed = nn.Embedding(num_embeddings=len(wn_concept_vectors),
+                                                 embedding_dim=KB_EMBEDDING_DIM,
+                                                 padding_idx=PAD_WN_CONCEPT_ID)
+            self.wn_concept_embed.weight = nn.Parameter(torch.from_numpy(wn_concept_vectors), requires_grad=False)
 
-        nell_concept_vectors = np.array(get_nell_concept_vectors(args))
-        self.nell_concept_embed = nn.Embedding(num_embeddings=len(nell_concept_vectors),
-                                               embedding_dim=KB_EMBEDDING_DIM,
-                                               padding_idx=PAD_NELL_CONCEPT_ID)
-        self.nell_concept_embed.weight = nn.Parameter(torch.from_numpy(nell_concept_vectors), requires_grad=False)
+            nell_concept_vectors = np.array(get_nell_concept_vectors(args))
+            self.nell_concept_embed = nn.Embedding(num_embeddings=len(nell_concept_vectors),
+                                                   embedding_dim=KB_EMBEDDING_DIM,
+                                                   padding_idx=PAD_NELL_CONCEPT_ID)
+            self.nell_concept_embed.weight = nn.Parameter(torch.from_numpy(nell_concept_vectors), requires_grad=False)
 
-        self.knowledge_attn = Attention(query_dim=2 * input_dim,
-                                        key_dim=KB_EMBEDDING_DIM,
-                                        method=args.attn,
-                                        dropout_rate=args.knowledge_attn_dropout)
-        self.pos_embed = PositionalEmbedding(embed_dim=KB_EMBEDDING_DIM,
-                                             max_seq_len=args.max_seq_len) if pos_embed_enabled else None
+            self.knowledge_attn = Attention(query_dim=2 * input_dim,
+                                            key_dim=KB_EMBEDDING_DIM,
+                                            method=args.attn,
+                                            dropout_rate=args.knowledge_attn_dropout)
+            self.pos_embed = PositionalEmbedding(embed_dim=KB_EMBEDDING_DIM,
+                                                 max_seq_len=args.max_seq_len) if pos_embed_enabled else None
 
-        self.context_attn = Attention(query_dim=2 * input_dim,
-                                      key_dim=KB_EMBEDDING_DIM,
-                                      method=args.attn,
-                                      dropout_rate=args.context_attn_dropout)
-        self.layer_norm = nn.LayerNorm(KB_EMBEDDING_DIM)
+            self.context_attn = Attention(query_dim=2 * input_dim,
+                                          key_dim=KB_EMBEDDING_DIM,
+                                          method=args.attn,
+                                          dropout_rate=args.context_attn_dropout)
+            self.layer_norm = nn.LayerNorm(KB_EMBEDDING_DIM)
 
     def forward(self, intent_features, slot_features, attention_mask,
                 wn_synset_indexes, wn_synset_lengths, nell_entity_indexes, nell_entity_lengths):
@@ -121,6 +122,12 @@ class KnowledgeIntegrator(nn.Module):
             knowledge, contexts
             output state which contains knowledge and knowledge contexts. 2 * Tensor[batch, seq_len, KB_EMBEDDING_DIM]
         """
+
+        if self.max_concepts_count <= 0:
+            # return zero tensor if no any knowledge enabled.
+            zeros = torch.zeros(attention_mask.shape[0], attention_mask.shape[1], KB_EMBEDDING_DIM).to(
+                self.get_device(attention_mask))
+            return zeros, zeros
 
         # get concept embedding vectors. [batch_size, seq_len, concept_count, KB_EMBEDDING_DIM]
         concept_vectors = torch.cat([
@@ -167,6 +174,15 @@ class KnowledgeIntegrator(nn.Module):
 
         return knowledge, contexts
 
+    @staticmethod
+    def get_device(t):
+        try:
+            device_id = t.get_device()
+        except:
+            return 'cpu'
+        else:
+            return 'cpu' if device_id < 0 else 'cuda'
+
 
 class PositionalEmbedding(nn.Module):
 
@@ -202,34 +218,23 @@ class KnowledgeDecoder(nn.Module):
     """
     Args:
         input_dim: Last dimension of input tensor.
-        num_intent_labels: Number of intent labels.
-        num_slot_labels: Number of slot labels.
     """
 
-    def __init__(self, args, input_dim, num_intent_labels, num_slot_labels):
+    def __init__(self, args, input_dim):
         super(KnowledgeDecoder, self).__init__()
         self.args = args
-
         self.intent_decoder = LSTMDecoder(args,
                                           input_size=2 * input_dim + KB_EMBEDDING_DIM,
                                           hidden_size=KB_EMBEDDING_DIM,
                                           bidirectional=True,
                                           dropout_rate=args.knowledge_decoder_dropout)
         self.slot_decoder = LSTMDecoder(args,
-                                        input_size=2 * input_dim + KB_EMBEDDING_DIM * (
-                                            1 if args.decoder == 'unstack' else 3),
+                                        input_size=2 * input_dim + KB_EMBEDDING_DIM * (1 if args.unstack else 3),
                                         hidden_size=KB_EMBEDDING_DIM,
                                         bidirectional=True,
                                         dropout_rate=args.knowledge_decoder_dropout)
 
         self.layer_norm = nn.LayerNorm(2 * KB_EMBEDDING_DIM)
-
-        self.intent_classifier = Classifier(args,
-                                            input_size=input_dim + 2 * KB_EMBEDDING_DIM,
-                                            num_labels=num_intent_labels)
-        self.slot_classifier = Classifier(args,
-                                          input_size=input_dim + 2 * KB_EMBEDDING_DIM,
-                                          num_labels=num_slot_labels)
 
     def forward(self, intent_features, slot_features, knowledge, knowledge_contexts, attention_mask):
         """
@@ -241,8 +246,8 @@ class KnowledgeDecoder(nn.Module):
             attention_mask: Tensor[batch_size, max_seq_len]
 
         Return:
-            intent_logits: Tensor[batch_size, max_seq_len, num_intent_labels]
-            slot_logits: Tensor[batch_size, max_seq_len, num_slot_labels]
+            intent_y: Tensor[batch_size, max_seq_len, input_dim + 2 * KB_EMBEDDING_DIM]
+            slot_y: Tensor[batch_size, max_seq_len, input_dim + 2 * KB_EMBEDDING_DIM]
         """
 
         seq_lens = torch.sum(attention_mask, dim=1, keepdim=False) - 2
@@ -257,7 +262,7 @@ class KnowledgeDecoder(nn.Module):
         # [batch_size, max_seq_len, 2 * KB_EMBEDDING_DIM]
         intent_hidden = torch.cat([padding, intent_hidden, padding], dim=1)
 
-        if self.args.decoder == 'unstack':
+        if self.args.unstack:
             # [batch_size, max_seq_len - 2, 2 * input_dim + KB_EMBEDDING_DIM]
             slot_input = torch.cat([intent_features, slot_features, knowledge_contexts], dim=2)[:, 1:-1, :]
         else:
@@ -272,134 +277,10 @@ class KnowledgeDecoder(nn.Module):
         slot_hidden = torch.cat([padding, slot_hidden, padding], dim=1)
 
         # [batch_size, max_seq_len, input_dim + 2 * KB_EMBEDDING_DIM]
-        intent_logits = torch.cat([intent_features, intent_hidden], dim=2)
-        slot_logits = torch.cat([slot_features, slot_hidden], dim=2)
+        intent_y = torch.cat([intent_features, intent_hidden], dim=2)
+        slot_y = torch.cat([slot_features, slot_hidden], dim=2)
 
-        intent_logits = self.intent_classifier(intent_logits)  # [batch_size, max_seq_len, num_intent_labels]
-        slot_logits = self.slot_classifier(slot_logits)  # [batch_size, max_seq_len, num_slot_labels]
-
-        return intent_logits, slot_logits
-
-
-class StackDecoder(nn.Module):
-    """
-    Args:
-        input_dim: Last dimension of input tensor.
-        num_intent_labels: Number of intent labels.
-        num_slot_labels: Number of slot labels.
-    """
-
-    def __init__(self, args, input_dim, num_intent_labels, num_slot_labels):
-        super(StackDecoder, self).__init__()
-        self.args = args
-
-        self.intent_decoder = LSTMDecoder(args,
-                                          input_size=2 * input_dim,
-                                          hidden_size=KB_EMBEDDING_DIM,
-                                          bidirectional=True,
-                                          dropout_rate=args.knowledge_decoder_dropout)
-        self.slot_decoder = LSTMDecoder(args,
-                                        input_size=2 * input_dim + KB_EMBEDDING_DIM * (
-                                            0 if args.decoder == 'unstack' else 2),
-                                        hidden_size=KB_EMBEDDING_DIM,
-                                        bidirectional=True,
-                                        dropout_rate=args.knowledge_decoder_dropout)
-
-        self.layer_norm = nn.LayerNorm(2 * KB_EMBEDDING_DIM)
-
-        self.intent_classifier = Classifier(args,
-                                            input_size=input_dim + 2 * KB_EMBEDDING_DIM,
-                                            num_labels=num_intent_labels)
-        self.slot_classifier = Classifier(args,
-                                          input_size=input_dim + 2 * KB_EMBEDDING_DIM,
-                                          num_labels=num_slot_labels)
-
-    def forward(self, intent_features, slot_features, attention_mask):
-        """
-        Args:
-            intent_features: Tensor[batch_size, seq_len, input_dim]
-            slot_features: Tensor[batch_size, seq_len, input_dim]
-            attention_mask: Tensor[batch_size, max_seq_len]
-
-        Return:
-            intent_logits: Tensor[batch_size, max_seq_len, num_intent_labels]
-            slot_logits: Tensor[batch_size, max_seq_len, num_slot_labels]
-        """
-
-        seq_lens = torch.sum(attention_mask, dim=1, keepdim=False) - 2
-        padding = torch.zeros(intent_features.shape[0], 1, 2 * KB_EMBEDDING_DIM).to(self.args.device)
-
-        # [batch_size, max_seq_len - 2, 2 * KB_EMBEDDING_DIM]
-        intent_hidden = self.intent_decoder(
-            seq_input=torch.cat([intent_features, slot_features], dim=2)[:, 1:-1, :],
-            seq_lens=seq_lens
-        )
-        intent_hidden = self.layer_norm(intent_hidden)
-        # [batch_size, max_seq_len, 2 * KB_EMBEDDING_DIM]
-        intent_hidden = torch.cat([padding, intent_hidden, padding], dim=1)
-
-        if self.args.decoder == 'unstack':
-            # [batch_size, max_seq_len - 2, 2 * input_dim + KB_EMBEDDING_DIM]
-            slot_input = torch.cat([intent_features, slot_features], dim=2)[:, 1:-1, :]
-        else:
-            # [batch_size, max_seq_len - 2, 2 * input_dim + 3 * KB_EMBEDDING_DIM]
-            slot_input = torch.cat([intent_features, slot_features, intent_hidden], dim=2)[:, 1:-1, :]
-        # [batch_size, max_seq_len - 2, 2 * KB_EMBEDDING_DIM]
-        slot_hidden = self.slot_decoder(seq_input=slot_input, seq_lens=seq_lens)
-
-        slot_hidden = self.layer_norm(slot_hidden)
-        # [batch_size, max_seq_len, 2 * KB_EMBEDDING_DIM]
-        slot_hidden = torch.cat([padding, slot_hidden, padding], dim=1)
-
-        # [batch_size, max_seq_len, input_dim + 2 * KB_EMBEDDING_DIM]
-        intent_logits = torch.cat([intent_features, intent_hidden], dim=2)
-        slot_logits = torch.cat([slot_features, slot_hidden], dim=2)
-
-        intent_logits = self.intent_classifier(intent_logits)  # [batch_size, max_seq_len, num_intent_labels]
-        slot_logits = self.slot_classifier(slot_logits)  # [batch_size, max_seq_len, num_slot_labels]
-
-        return intent_logits, slot_logits
-
-
-class NoneDecoder(nn.Module):
-    """
-    Args:
-        input_dim: Last dimension of input tensor.
-        num_intent_labels: Number of intent labels.
-        num_slot_labels: Number of slot labels.
-    """
-
-    def __init__(self, args, input_dim, num_intent_labels, num_slot_labels):
-        super(NoneDecoder, self).__init__()
-        self.args = args
-        self.knowledge_enabled = args.max_wn_concepts_count + args.max_nell_concepts_count > 0
-
-        input_size = input_dim + (KB_EMBEDDING_DIM if self.knowledge_enabled else 0)
-        self.intent_classifier = Classifier(args, input_size=input_size, num_labels=num_intent_labels)
-        self.slot_classifier = Classifier(args, input_size=input_size, num_labels=num_slot_labels)
-
-    def forward(self, intent_features, slot_features, knowledge, knowledge_contexts):
-        """
-        Args:
-            intent_features: Tensor[batch_size, seq_len, input_dim]
-            slot_features: Tensor[batch_size, seq_len, input_dim]
-            knowledge: Tensor[batch_size, seq_len, KB_EMBEDDING_DIM]
-            knowledge_contexts: Tensor[batch_size, seq_len, KB_EMBEDDING_DIM]
-
-        Return:
-            intent_logits: Tensor[batch_size, max_seq_len, num_intent_labels]
-            slot_logits: Tensor[batch_size, max_seq_len, num_slot_labels]
-        """
-
-        if self.knowledge_enabled:
-            # [batch_size, max_seq_len, input_dim + KB_EMBEDDING_DIM]
-            intent_features = torch.cat([intent_features, knowledge_contexts], dim=2)
-            slot_features = torch.cat([slot_features, knowledge_contexts], dim=2)
-
-        intent_logits = self.intent_classifier(intent_features)  # [batch_size, max_seq_len, num_intent_labels]
-        slot_logits = self.slot_classifier(slot_features)  # [batch_size, max_seq_len, num_slot_labels]
-
-        return intent_logits, slot_logits
+        return intent_y, slot_y
 
 
 class Classifier(nn.Module):

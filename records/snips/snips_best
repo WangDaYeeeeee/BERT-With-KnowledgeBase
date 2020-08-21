@@ -1,12 +1,13 @@
 model                           intent_acc      slot_f1         semantic_acc    epoch   params
 
-Bert+KnowledgeBase (uni-inte)   98.3 (98.7)     96.4 (96.4)     91.9 (91.1)     80      --task snips --pos --uni_intent --schedule cosine --batch_size 64 --num_epochs 80
+Bert+KnowledgeBase (uni-intent) 98.4 (98.9)     96.7 (96.3)     92.1 (91.6)     50      --task snips --pos --uni_intent --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 50
 Bert+KnowledgeBase (no-pos)     98.6 (98.6)     96.5 (96.6)     91.9 (91.7)     100     --task snips --schedule cosine --batch_size 64 --num_epochs 100
-Bert+KnowledgeBase (unstack)    98.9 (98.7)     96.5 (96.4)     92.0 (91.6)     40      --task snips --pos --unstack --schedule cosine --batch_size 64 --num_epochs 40
+Bert+KnowledgeBase (no-decoder) 98.7 (99.0)     95.8 (96.3)     91.3 (91.1)     10      --task snips --decoder none --pos --schedule cosine --batch_size 64 --num_epochs 10
+Bert+KnowledgeBase (unstack)    98.9 (98.7)     96.5 (96.4)     92.0 (91.6)     40      --task snips --decoder unstack --pos --schedule cosine --batch_size 64 --num_epochs 40
 
-Bert+KnowledgeBase (none)       98.3 (98.9)     96.4 (96.1)     91.9 (91.1)     50      --task snips --pos --kb none --schedule cosine --batch_size 64 --num_epochs 50
+Bert+KnowledgeBase (none)       98.6 (99.0)     96.4 (96.3)     92.3 (91.3)     20      --task snips --pos --kb none --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 20
 Bert+KnowledgeBase (NELL)       98.7 (98.6)     96.6 (96.6)     92.0 (91.7)     80      --task snips --pos --kb nell --schedule cosine --batch_size 64 --num_epochs 80
-Bert+KnowledgeBase (WN)         98.4 (98.6)     96.6 (96.3)     91.9 (91.3)     50      --task snips --pos --kb wn --schedule cosine --batch_size 64 --num_epochs 50
+Bert+KnowledgeBase (WN)         98.4 (99.1)     96.8 (96.6)     92.7 (91.9)     30      --task snips --pos --kb wn --schedule cosine --batch_size 64 --eval_epochs 10 --num_epochs 30
 Bert+KnowledgeBase (both)       98.9 (98.9)     97.2 (96.1)     93.3 (91.6)     80      --task snips --pos --schedule cosine --batch_size 64 --num_epochs 80
 
 Bert-SLU (baseline)             98.6            97.0            92.8            -

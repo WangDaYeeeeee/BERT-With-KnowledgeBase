@@ -1,0 +1,12 @@
+                    ATIS                                                    Snips
+model               intent_acc      slot_f1         semantic_acc            intent_acc      slot_f1         semantic_acc
+Our model (uni-int) 97.5            96.1            88.5                    98.4            96.7            92.1
+Our model (no-pos)  98.0            95.8            88.4                    98.6            96.5            91.9
+Our model (no-deco) 97.8            95.7            87.9                    98.7            95.8            91.3
+Our model (unstack) 97.4            96.1            88.6                    98.9            96.5            92.0
+
+Our model (none)    97.3            95.9            87.9                    98.6            96.4            92.3
+Our model (NELL)    98.0            96.0            88.6                    98.7            96.6            92.0
+Our model (WordNet) 97.8            95.8            88.2                    98.4            96.8            92.7
+
+Our model (both)    97.9            96.1            89.1                    98.9            97.2            93.3

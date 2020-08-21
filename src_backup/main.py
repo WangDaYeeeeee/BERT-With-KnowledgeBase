@@ -13,8 +13,6 @@ parser.add_argument("--task", default='atis', type=str, choices=['atis', 'snips'
                     help="The name of the task to train.")
 parser.add_argument("--kb", default='both', type=str, choices=['both', 'wn', 'nell', 'none'],
                     help="The composition of knowledge base.")
-parser.add_argument("--decoder", default="stack", type=str, choices=['stack', 'unstack', 'none'],
-                    help="Knowledge decoder type.")
 parser.add_argument("--schedule", default="linear", type=str, choices=['linear', 'cosine', 'constant'],
                     help="The schedule of training process.")
 parser.add_argument("--attn", default="general", type=str,
@@ -42,8 +40,6 @@ parser.add_argument("--num_warmup_steps", default=0, type=float,
                     help="Warmup steps of schedule. If less than 1, that means the proportion of total training steps.")
 
 parser.add_argument('--seed', type=int, default=0, help="Random seed for initialization.")
-parser.add_argument("--eval_epochs", default=5, type=int,
-                    help="Evaluate model every X epochs 5. Only evaluate the last epoch if it's 0.")
 
 parser.add_argument("--intent_decoder_dropout", "--id_dr", default=0., type=float, help="Intent decoder dropout.")
 parser.add_argument("--knowledge_attn_dropout", "--ka_dr", default=0., type=float, help="Knowledge attention dropout.")
@@ -54,6 +50,7 @@ parser.add_argument("--classifier_dropout", "--c_dr", default=0.1, type=float, h
 # parser.add_argument("--full", action="store_true", help="Whether to use full-scale dataset.")
 parser.add_argument("--pos", action="store_true", help="Whether to enable the pos-embedding in knowledge integrator.")
 parser.add_argument("--uni_intent", action="store_true", help="Whether to disable the intent decoder.")
+parser.add_argument("--unstack", action="store_true", help="Whether to disable stack-propagation in knowledge decoder.")
 parser.add_argument("--no_cuda", action="store_true", help="Avoid using CUDA when available.")
 parser.add_argument('--log_to_file', action="store_true", help="Whether to make logger output log info to file.")
 
@@ -63,6 +60,8 @@ parser.add_argument("--ignore_index", default=-100, type=int,
 parser.add_argument('--slot_loss_coef', type=float, default=1.0, help='Coefficient for the slot loss.')
 
 # For eval and pred.
+parser.add_argument("--save_epochs", default=0, type=int,
+                    help="Save checkpoint every X epochs, must be a multiple of 5. Only save the last epoch if it's 0.")
 parser.add_argument("--do_eval", default=None, type=str, help="Path of saved model. '{record_path}/models/{epoch}'")
 parser.add_argument("--do_pred", default=None, type=str, help="Path of saved model. '{record_path}/models/{epoch}'")
 parser.add_argument("--pred_dir", default="./preds", type=str, help="The input prediction dir.")
@@ -90,12 +89,14 @@ elif args.kb == 'none':
 
 args.record_path = '{}_{}_{}_{}_{}_{}'.format(
     args.task,
-    f'{args.decoder}{"+uni" if args.uni_intent else ""}{"+pos" if args.pos else ""}',
+    f'{"unstack" if args.unstack else "stack"}{"-uni" if args.uni_intent else ""}{"-pos" if args.pos else ""}',
     f'seed{args.seed}' if args.do_train else 'eval-pred',
     f'seq{args.max_seq_len}',
     f'{args.kb}',
     time.strftime('%Y-%m-%d--%H-%M-%S', time.localtime(time.time()))
 )
+if args.save_epochs % 5 != 0:
+    raise ValueError("The value of args.save_epochs must be a multiple of 5.")
 
 
 if __name__ == '__main__':
@@ -110,10 +111,16 @@ if __name__ == '__main__':
 
     if args.do_train:
         trainer.train()
-        if args.eval_epochs == 0 or args.num_epochs % args.eval_epochs != 0:
-            trainer.evaluate('dev', args.num_epochs, tensorboard_enabled=False)
-        trainer.evaluate('test', args.num_epochs, tensorboard_enabled=False)
-        trainer.save_model(args.record_path, args.num_epochs)
+        if args.save_epochs != 0:
+            for epoch in range(args.save_epochs, args.num_epochs + 1, args.save_epochs):
+                trainer.load_model(f"{args.record_path}/models/{epoch}")
+                trainer.evaluate('dev', epoch, tensorboard_enabled=False)
+                trainer.evaluate('test', epoch, tensorboard_enabled=False)
+        else:
+            if args.num_epochs % 5 != 0:
+                trainer.evaluate('dev', args.num_epochs, tensorboard_enabled=False)
+            trainer.evaluate('test', args.num_epochs, tensorboard_enabled=False)
+            trainer.save_model(args.record_path, args.num_epochs)
 
     if args.do_eval is not None:
         trainer.load_model(args.do_eval)

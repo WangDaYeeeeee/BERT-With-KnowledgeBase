@@ -1,0 +1,6 @@
+                    ATIS                                                    Snips
+model               intent_acc      slot_f1         semantic_acc            intent_acc      slot_f1         semantic_acc
+Bert-SLU            97.5            96.1            88.2                    98.6            97.0            92.8
+Bert+StackProp      97.5            96.1            88.6                    99.0            97.0            92.9
+
+Our model           97.9            96.1            89.1                    98.9            97.2            93.3
