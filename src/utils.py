@@ -188,10 +188,6 @@ def get_intent_acc(preds, labels):
     }
 
 
-def read_prediction_text(args):
-    return [text.strip() for text in open(os.path.join(args.pred_dir, args.pred_input_file), 'r', encoding='utf-8')]
-
-
 def get_sentence_frame_acc(intent_preds, intent_labels, slot_preds, slot_labels):
     """
     For the cases that intent and all the slots are correct (in one sentence)

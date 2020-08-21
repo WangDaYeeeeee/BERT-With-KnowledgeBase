@@ -4,7 +4,7 @@ import time
 import torch
 
 from trainer import Trainer
-from utils import init_logger, load_tokenizer, set_seed, read_prediction_text
+from utils import init_logger, load_tokenizer, set_seed
 from data_loader import load_and_cache_dataset
 
 parser = argparse.ArgumentParser()
@@ -64,7 +64,6 @@ parser.add_argument('--slot_loss_coef', type=float, default=1.0, help='Coefficie
 
 # For eval and pred.
 parser.add_argument("--do_eval", default=None, type=str, help="Path of saved model. '{record_path}/models/{epoch}'")
-parser.add_argument("--do_pred", default=None, type=str, help="Path of saved model. '{record_path}/models/{epoch}'")
 parser.add_argument("--pred_dir", default="./preds", type=str, help="The input prediction dir.")
 parser.add_argument("--pred_input_file", default="preds.txt", type=str,
                     help="The input text file of lines for prediction.")
@@ -78,7 +77,7 @@ parser.add_argument("--pad_label", default="PAD", type=str,
 args = parser.parse_args()
 args.model_name_or_path = '../bert/'
 args.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
-args.do_train = args.do_eval is None and args.do_pred is None
+args.do_train = args.do_eval is None
 
 if args.kb == 'nell':
     args.max_wn_concepts_count = 0
@@ -119,7 +118,3 @@ if __name__ == '__main__':
         trainer.load_model(args.do_eval)
         trainer.evaluate('dev', args.num_epochs, tensorboard_enabled=False)
         trainer.evaluate('test', args.num_epochs, tensorboard_enabled=False)
-
-    if args.do_pred is not None:
-        trainer.load_model(args.do_pred)
-        trainer.predict(read_prediction_text(args), tokenizer)
