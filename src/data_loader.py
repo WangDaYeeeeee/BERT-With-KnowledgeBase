@@ -181,11 +181,11 @@ class ExampleLoader(object):
         data_path = os.path.join(self.args.data_dir, 'dataset', self.args.task, mode)
         logger.info("LOOKING AT {}".format(data_path))
         return self._create_examples(
-            texts=self._read_file(os.path.join(data_path + '/', self.input_text_file)),
-            intents=self._read_file(os.path.join(data_path + '/', self.intent_label_file)),
-            slots=self._read_file(os.path.join(data_path + '/', self.slot_labels_file)),
-            wn_synsets=self._read_file(os.path.join(data_path + '/', self.wn_synsets_file)),
-            nell_entities=self._read_file(os.path.join(data_path + '/', self.nell_entities_file)),
+            texts=self._read_file(os.path.join(data_path, self.input_text_file)),
+            intents=self._read_file(os.path.join(data_path, self.intent_label_file)),
+            slots=self._read_file(os.path.join(data_path, self.slot_labels_file)),
+            wn_synsets=self._read_file(os.path.join(data_path, self.wn_synsets_file)),
+            nell_entities=self._read_file(os.path.join(data_path, self.nell_entities_file)),
             set_type=mode
         )
 
@@ -318,8 +318,8 @@ def load_and_cache_dataset(args, tokenizer, mode):
     """
 
     dataset_cache = os.path.join(
-        args.data_dir + '/',
-        'cache/'
+        args.data_dir,
+        'cache'
         'cached_{}_{}_{}_{}_{}_{}'.format(
             args.task,  # atis, snips
             mode,  # dev, test, train

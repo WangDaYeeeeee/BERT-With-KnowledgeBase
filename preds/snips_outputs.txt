@@ -1,0 +1,2854 @@
+add sabrina salerno to the grime instrumentals playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i want to bring four people to a place that s close to downtown that serves churrascaria cuisine
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'O', 'B-poi', 'O', 'O', 'B-restaurant_type', 'O']
+intent_pred: BookRestaurant
+
+put lindsey cardinale into my hillary clinton s women s history month playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+will it snow in mt on june 13  2038
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+play signe anderson chant music that is newest
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'O', 'O', 'B-sort']
+intent_pred: PlayMusic
+
+can you let me know what animated movies are playing close by
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+can you get me reservations for a highly rated restaurant in seychelles
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'I-sort', 'B-restaurant_type', 'O', 'B-country']
+intent_pred: BookRestaurant
+
+what s the weather here on 2/7/2021
+slot_pred: ['O', 'O', 'O', 'O', 'B-current_location', 'O', 'B-timeRange']
+intent_pred: GetWeather
+
+find worldly goods starting now at a movie house
+slot_pred: ['O', 'B-movie_name', 'I-movie_name', 'O', 'B-timeRange', 'O', 'O', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+on june 27  2026 i d like to go to a delaware gastropub
+slot_pred: ['O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-state', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+what movies are playing at mann theatres
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+find a movie called living in america
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find on dress parade
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchCreativeWork
+actual_real: SearchScreeningEvent
+
+make a reservation at a bakery that has acquacotta in central african republic for five
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish', 'O', 'B-country', 'I-country', 'I-country', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+where can i purchase the tv show time for heroes
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+will the wind die down at my current location by supper time
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'O', 'O', 'O', 'B-current_location', 'I-current_location', 'O', 'B-timeRange', 'O']
+intent_pred: GetWeather
+
+please search the young warriors game
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+make me a reservation in south carolina
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-state', 'I-state']
+intent_pred: BookRestaurant
+
+what movie theatre is showing if the huns came to melbourne
+slot_pred: ['O', 'B-object_location_type', 'I-object_location_type', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+restaurant in bulgaria this week party for 9 numbers
+slot_pred: ['B-restaurant_type', 'O', 'B-country', 'B-timeRange', 'I-timeRange', 'O', 'O', 'B-party_size_number', 'O']
+intent_pred: BookRestaurant
+
+rate the current novel four of 6 stars
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+add the song don t drink the water to my playlist
+slot_pred: ['O', 'O', 'B-music_item', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'O']
+slot_real: ['O', 'O', 'B-music_item', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O', 'B-playlist_owner', 'O']
+intent_pred: AddToPlaylist
+
+add this tune by rod argent to propuesta alternativa playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show the movie times
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+will it snow in amy
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'B-city']
+intent_pred: GetWeather
+
+what will the weather be at nine am in hi
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-state']
+intent_pred: GetWeather
+
+in one hour find king of hearts
+slot_pred: ['B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+book a spot for ten at a top-rated  caucasian restaurant not far  from selmer
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-sort', 'B-cuisine', 'B-restaurant_type', 'B-spatial_relation', 'I-spatial_relation', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+play music from clark kent in the year 1987
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+add to the rock games
+slot_pred: ['O', 'O', 'O', 'B-playlist', 'I-playlist']
+slot_real: ['O', 'O', 'O', 'B-playlist', 'B-entity_name']
+intent_pred: AddToPlaylist
+
+add this artist to pop 2017 picks
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+i rate shadow of suribachi at five stars
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+play some sixties music
+slot_pred: ['O', 'O', 'B-year', 'O']
+intent_pred: PlayMusic
+
+what film is playing nearby
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'B-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+add nothing fancy to meditate to sounds of nature playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+slot_real: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+get the video game of the chipmunk song
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate lamy of santa fe 5 of 6 stars
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+show me movie schedules
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+what will the weather be in lago vista on october fourteenth  2022
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'I-city', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+weather next year in canada
+slot_pred: ['O', 'B-timeRange', 'I-timeRange', 'O', 'B-country']
+intent_pred: GetWeather
+
+play a new symphony by perfecto de castro on lastfm
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-service']
+intent_pred: PlayMusic
+
+rate cuisines of the axis of evil and other irritating states one out of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+play arif music from the fourties
+slot_pred: ['O', 'B-artist', 'O', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+what is the weather of east portal ks
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city', 'I-city', 'B-state']
+intent_pred: GetWeather
+
+play a melody from elmer bernstein
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+what is the weather going to be like in klondike gold rush national historical park on february the 28th  2034
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+play songs by sarah harding
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+rate the chronicle ten from tomorrow a 2
+slot_pred: ['O', 'O', 'B-object_part_of_series_type', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+book a table for 2 at a restaurant in follett
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-restaurant_type', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+book a brasserie in samoa for four people
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-country', 'O', 'B-party_size_number', 'O']
+intent_pred: BookRestaurant
+
+play the new noise theology e p
+slot_pred: ['O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-album', 'I-album']
+slot_real: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: PlayMusic
+actual_real: SearchCreativeWork
+
+find a reservation at a restaurant that serves gougère in laneville with a party of nine
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish', 'O', 'B-city', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+find the cold dead hand video game for me
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-object_type', 'I-object_type', 'O', 'O']
+intent_pred: SearchCreativeWork
+
+book a bakery for lebanese on january 11th  2032
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-cuisine', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+rate the book an appeal from the new to the old whigs a 0
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+book a table for 8 at a restaurant that serves far breton
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-spatial_relation', 'B-cuisine']
+slot_real: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish', 'I-served_dish']
+intent_pred: BookRestaurant
+
+rate this current novel 1 stars
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+i rate secret water as a 4
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'O', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+is unbeatable harold at century theatres
+slot_pred: ['O', 'B-movie_name', 'I-movie_name', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+please find me asking alexandria discography
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what will the weather be in berville ak on feb  6  2017
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+is it warm in botna
+slot_pred: ['O', 'O', 'B-condition_temperature', 'O', 'B-city']
+intent_pred: GetWeather
+
+please add a track to my playlist called this is coti
+slot_pred: ['O', 'O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+find the via dolorosa: songs of redemption saga
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+can you add confessions to my playlist called clásica
+slot_pred: ['O', 'O', 'O', 'B-entity_name', 'O', 'B-playlist_owner', 'O', 'O', 'B-playlist']
+intent_pred: AddToPlaylist
+
+find the schedule for nearby animated movies
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-spatial_relation', 'B-movie_type', 'I-movie_type']
+intent_pred: SearchScreeningEvent
+
+book a table today at a steakhouse for eight that serves sashimi
+slot_pred: ['O', 'O', 'O', 'B-timeRange', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'O', 'B-served_dish']
+intent_pred: BookRestaurant
+
+play the last sound track by soko from around 1975
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'I-music_item', 'O', 'B-artist', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+add this song to blues roots
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+coon chicken inn restaurant for 1 am for me  clarice and debbie
+slot_pred: ['B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'B-restaurant_type', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description']
+intent_pred: BookRestaurant
+
+add karusellen to jazz brasileiro
+slot_pred: ['O', 'B-artist', 'O', 'B-playlist', 'I-playlist']
+slot_real: ['O', 'B-entity_name', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+play some steve boyett chant music
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O']
+intent_pred: PlayMusic
+
+give 1 out of 6 points to this novel
+slot_pred: ['O', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit', 'O', 'B-object_select', 'B-object_type']
+intent_pred: RateBook
+
+show the movie schedule of animated movies close by
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'I-movie_type', 'B-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+please play the newest music by evil jared hasselhoff
+slot_pred: ['O', 'O', 'O', 'B-sort', 'O', 'O', 'B-artist', 'I-artist', 'I-artist']
+intent_pred: PlayMusic
+
+add tune to my mellow bars playlist
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+put coming back to life onto winter music
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+rate this textbook a zero
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+i want to hear any tune from the twenties
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-music_item', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+play me a top-ten song by phil ochs on groove shark
+slot_pred: ['O', 'O', 'O', 'B-sort', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-service', 'I-service']
+intent_pred: PlayMusic
+
+find a video game called family dog
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate awaiting strange gods: weird and lovecraftian fictions a 1
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+add lisa m to my guitar hero live playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+what is the weather forecast for my current place
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-current_location', 'I-current_location']
+intent_pred: GetWeather
+
+add strong to the metal monday playlist
+slot_pred: ['O', 'B-entity_name', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+where can i find conduct unbecoming
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+will it be freezing in the current position
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'O', 'B-current_location', 'I-current_location']
+intent_pred: GetWeather
+
+add the da brat track to the soak up the sun playlist
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add a track to the another glass playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find now and forever
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchCreativeWork
+actual_real: SearchScreeningEvent
+
+the workout playlist needs more chris cross
+slot_pred: ['O', 'B-playlist', 'O', 'O', 'O', 'B-artist', 'I-artist']
+intent_pred: AddToPlaylist
+
+play some jungle music on iheart
+slot_pred: ['O', 'O', 'B-genre', 'O', 'O', 'B-service']
+intent_pred: PlayMusic
+
+give 1 point to current textbook
+slot_pred: ['O', 'B-rating_value', 'O', 'O', 'B-object_select', 'B-object_type']
+intent_pred: RateBook
+
+put no mystery into my punk essentials playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i want to put look to you on the playlist named 80s classic hits
+slot_pred: ['O', 'O', 'O', 'O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'O', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+what time is beat the devil coming on at mann theatres
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'I-movie_name', 'O', 'B-location_name', 'I-location_name']
+slot_real: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+rate the current chronicle a zero
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_part_of_series_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+add garry shider album to my classical essentials
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+add the artist cho kyu hyun to funky jams
+slot_pred: ['O', 'O', 'B-music_item', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+find the work i looked up
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play this is colour by panda bear
+slot_pred: ['O', 'B-track', 'I-track', 'I-track', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+play the god that failed on vimeo
+slot_pred: ['O', 'B-track', 'I-track', 'I-track', 'I-track', 'O', 'B-service']
+intent_pred: PlayMusic
+
+can i get the butterfly crush showings
+slot_pred: ['O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+add hanging on to my just dance by aftercluv playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show me when scandalous john is playing
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'O', 'O']
+intent_pred: SearchScreeningEvent
+
+a day no pigs would die deserves a best rating of 6 and a value of 4
+slot_pred: ['B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'O', 'O', 'O', 'O', 'B-best_rating', 'O', 'O', 'O', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+for my crossfit playlist add the soul sessions volume 2
+slot_pred: ['O', 'B-playlist_owner', 'B-playlist', 'O', 'O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name']
+intent_pred: AddToPlaylist
+
+play some james cleveland
+slot_pred: ['O', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+put this tune on dancepop
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist']
+intent_pred: AddToPlaylist
+
+what time will paris by night aired
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+play music on spotify
+slot_pred: ['O', 'O', 'O', 'B-service']
+intent_pred: PlayMusic
+
+i want a matt garrison tune in my fresh finds fire emoji playlist
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+will there be snowfall at six pm in leisure knoll california
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-city', 'I-city', 'B-state']
+intent_pred: GetWeather
+
+search for the television show me and my guitar
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+tell me when it will be chilly in chicken  united kingdom
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-city', 'B-country', 'I-country']
+intent_pred: GetWeather
+
+is it windy in telogia
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'B-city']
+intent_pred: GetWeather
+
+find a tv show called revenge of the nerds
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find the video game called turnin me on
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play the song i get ideas as performed by richard kruspe
+slot_pred: ['O', 'O', 'B-music_item', 'B-track', 'I-track', 'I-track', 'O', 'O', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+add turk to the deep house playlist
+slot_pred: ['O', 'B-entity_name', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+slot_real: ['O', 'B-artist', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find a reservation at fish express
+slot_pred: ['O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name']
+intent_pred: BookRestaurant
+
+check the forecast for the current spot in the future oct  19  2037
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-current_location', 'I-current_location', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+how can i view the show corpus: a home movie about selena
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i would rate that old ace in the hole one stars and a best rating of 6
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'O', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+add the rating for this current series a four out of 6 points
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_select', 'B-object_part_of_series_type', 'O', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+add justin mcroberts to this is chopin
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+book a bar that serves italian-american cuisine neighboring wilson av for one person
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish', 'I-served_dish', 'B-spatial_relation', 'B-poi', 'I-poi', 'O', 'B-party_size_number', 'O']
+intent_pred: BookRestaurant
+
+is fog forecast close-by to pakistan
+slot_pred: ['O', 'B-condition_description', 'O', 'B-spatial_relation', 'O', 'B-country']
+intent_pred: GetWeather
+
+book a restaurant for 3 people at eighteen oclock in saint vincent and the grenadines
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-country', 'I-country', 'I-country', 'I-country', 'I-country']
+slot_real: ['O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'O', 'B-timeRange', 'O', 'O', 'B-country', 'I-country', 'I-country', 'I-country', 'I-country']
+intent_pred: BookRestaurant
+
+find the schedule for films at night at great escape theatres
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-movie_type', 'O', 'B-timeRange', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+is there snow in the district of columbia
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'O', 'B-state', 'I-state', 'I-state']
+intent_pred: GetWeather
+
+find a movie schedule
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+rate the beggar of volubilis 1 out of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+what is the forecast in heber
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city']
+intent_pred: GetWeather
+
+please play an album from 1987
+slot_pred: ['O', 'O', 'O', 'B-music_item', 'O', 'B-year']
+intent_pred: PlayMusic
+
+show me the courts of chaos
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+give the current book five stars out of 6
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+when is fine  totally fine playing
+slot_pred: ['O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+add a tune to clásicos del hip hop español
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+play jawad ahmad
+slot_pred: ['O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+what is the forecast for in 1 second at monte sereno for freezing temps
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city', 'I-city', 'O', 'B-condition_temperature', 'O']
+intent_pred: GetWeather
+
+i would like to eat fast food and have a party of two in kentucky
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'I-restaurant_type', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-state']
+intent_pred: BookRestaurant
+
+play music from itunes for ric grech
+slot_pred: ['O', 'O', 'O', 'B-service', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+add jennie  jennie to my metal playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show the tv show the last samurai
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add rob tyner to betsy s we everywhere
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+show me the weather forecast for the city of spencer
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-city']
+intent_pred: GetWeather
+
+how is the weather in getzville  minnesota
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city', 'B-state']
+intent_pred: GetWeather
+
+what is dear old girl cooper foundation
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'B-location_name', 'I-location_name']
+intent_pred: SearchCreativeWork
+actual_real: SearchScreeningEvent
+
+i need a weather forecast for são tomé and príncipe on december 8th  2026
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-country', 'I-country', 'I-country', 'I-country', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+what animated movies are showing in the area
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+tell me the weather forecast for april 15  2019 here
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'B-current_location']
+intent_pred: GetWeather
+
+play the track asleep in the deep
+slot_pred: ['O', 'O', 'B-music_item', 'B-track', 'I-track', 'I-track', 'I-track']
+intent_pred: PlayMusic
+
+play kurt cobain ballad tunes
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'O']
+intent_pred: PlayMusic
+
+can you add a track to my spain top 50 playlist
+slot_pred: ['O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+at meal time while i m here will it be hot
+slot_pred: ['O', 'B-timeRange', 'O', 'O', 'O', 'O', 'B-current_location', 'O', 'O', 'O', 'B-condition_temperature']
+intent_pred: GetWeather
+
+can you find me the magic hour song
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+add mary wells sings my guy to the electro sur playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play some kyle ward from the seventies
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+book a table around london borough of ealing that is highly rated in a gluten free bar
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-poi', 'I-poi', 'I-poi', 'I-poi', 'O', 'O', 'B-sort', 'I-sort', 'O', 'O', 'B-cuisine', 'I-cuisine', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+when is crime and punishment u s a  showing
+slot_pred: ['O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+will it snowstorm in long lake national wildlife refuge
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+rate current essay a zero
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+book me a reservation at a bar around juliff for three people that serves bucatini for now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'B-poi', 'O', 'B-party_size_number', 'O', 'O', 'O', 'B-served_dish', 'O', 'B-timeRange']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'B-city', 'O', 'B-party_size_number', 'O', 'O', 'O', 'B-served_dish', 'O', 'B-timeRange']
+intent_pred: BookRestaurant
+
+book a highly rated place in in in seven years  at a pub
+slot_pred: ['O', 'O', 'B-sort', 'I-sort', 'O', 'O', 'B-state', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+what time is southern theatres showing ukraine is not a brothel
+slot_pred: ['O', 'O', 'O', 'B-location_name', 'I-location_name', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+add this album ny bill callahan to my mi casa es la tuya playlist oficial list
+slot_pred: ['O', 'O', 'B-music_item', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O', 'B-playlist', 'O']
+slot_real: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find a soundtrack called pax warrior
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book a table for ten for breakfast in minnesota
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'O', 'B-state']
+intent_pred: BookRestaurant
+
+what is the local movie schedule
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+book a restaurant for three on feb  18
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+i d like to know what movies are on the movie schedules nearby
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-movie_type', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+please make me reservations somewhere for eight people in foley  nv
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-city', 'B-state']
+intent_pred: BookRestaurant
+
+she me movie times at mann theatres
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+find the picture ultima vi: the false prophet
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play the best album from the seventies
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+add kylie minogue to my novedades viernes sudamérica playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+is it freezing in colorado
+slot_pred: ['O', 'O', 'B-condition_temperature', 'O', 'B-state']
+intent_pred: GetWeather
+
+the last hawk gets a total of 3 out of 6 stars from me
+slot_pred: ['B-object_name', 'I-object_name', 'I-object_name', 'O', 'O', 'O', 'O', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit', 'O', 'O']
+intent_pred: RateBook
+
+will it be stormy in ma
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'B-state']
+intent_pred: GetWeather
+
+play pop 2017 picks
+slot_pred: ['O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: PlayMusic
+
+play some theme songs from 1974
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+what will the weather be in la at 9 o clock
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+can you add xanadu to latin alternative music
+slot_pred: ['O', 'O', 'O', 'B-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+can you find me the naked city – justice with a bullet album
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+please search the work  eve-olution
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+add i dreamt of a dragon to my futuros hits playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add this artist to the laugh list
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'O']
+slot_real: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+i d like to eat at a restaurant around china with a party of 7 anywhere that serves ouzeri
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'B-country', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'O', 'B-cuisine']
+intent_pred: BookRestaurant
+
+the sleep machine waterscapes playlist needs some kris chetan ramlu in it
+slot_pred: ['B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O', 'O', 'O', 'B-artist', 'I-artist', 'I-artist', 'O', 'O']
+intent_pred: AddToPlaylist
+
+rate the current chronicle five stars
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_part_of_series_type', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+rate this novel five of 6
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+my rating for the eiffel tower and other mythologies is 0 out of 6 stars
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+i d like a table for midday at the unseen bean
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name']
+intent_pred: BookRestaurant
+
+where can i see the movie across the line: the exodus of charlie wright
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+turn on spotify to tiny tim ep
+slot_pred: ['O', 'O', 'B-service', 'O', 'B-artist', 'I-artist', 'B-music_item']
+intent_pred: PlayMusic
+
+what are the movie schedules
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+i want a table for me and my kids in turkey at a neighboring restaurant
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'B-country', 'O', 'O', 'B-spatial_relation', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+play a top 5 song from wally bastian on google music
+slot_pred: ['O', 'O', 'B-sort', 'I-sort', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-service', 'I-service']
+intent_pred: PlayMusic
+
+please search the ironbound picture
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+put a gary clark song into the soul bpm playlist
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+will it be hot on orthodox good friday in michigan and close-by
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-state', 'O', 'B-spatial_relation']
+intent_pred: GetWeather
+
+i want to see the television show called cuts both ways
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i d like to reserve a table at a pub that serves andouillettes within the same area in san marino
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'B-country', 'I-country']
+intent_pred: BookRestaurant
+
+what is the weather like in hurstville
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city']
+intent_pred: GetWeather
+
+put this album on my wild country playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+rate this textbook 2 out of 6
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+search for the complots
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name']
+slot_real: ['O', 'O', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+find the schedule for the band of honest men at the nearest movie theatre
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+what will the weather be in waverly city brazil on purple heart day
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'I-city', 'B-country', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+what is the weather forecast in delaware
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-state']
+intent_pred: GetWeather
+
+play a top-50 tune from 1982
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'O', 'B-year']
+intent_pred: PlayMusic
+
+play shinji miyazaki s music on netflix
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'O', 'O', 'B-service']
+intent_pred: PlayMusic
+
+can i get the game list of mew singles
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what s the forecast for belize around meal time
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-country', 'O', 'B-timeRange', 'O']
+intent_pred: GetWeather
+
+add gary lachman track to jazz for loving couples playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find the path to power
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+put artist paulinho da costa on my very nearly nashville playlist
+slot_pred: ['O', 'B-music_item', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i am looking for the work: nikki
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+what s the weather in low moor
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+play some nineties music
+slot_pred: ['O', 'O', 'B-year', 'O']
+intent_pred: PlayMusic
+
+find a television show called swing high
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+use netflix to play bizzy bone kiss me goodnight  sergeant major
+slot_pred: ['O', 'B-service', 'O', 'O', 'B-artist', 'I-artist', 'B-track', 'I-track', 'I-track', 'I-track', 'I-track']
+intent_pred: PlayMusic
+
+i d like to see movie schedules for kerasotes theatres
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+i want these are the days added to my spotlight spain 2016 playlist
+slot_pred: ['O', 'O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play the greatest soundtrack by nhat son on last fm
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-service', 'I-service']
+intent_pred: PlayMusic
+
+what is the tv series in app store
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book the space aliens grill & bar in hord wy for feb  the twenty-seventh
+slot_pred: ['O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-city', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+slot_real: ['O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-city', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+find a saga called set sail the prairie
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+can jovino santos neto s album get added to my confidence boost playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-music_item', 'O', 'O', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show animated movies in nearest movie theatre
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+find the game company of heroes
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+where can i find paranormal activity 3 playing near me 1 hour from now
+slot_pred: ['O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+book a table this evening in saint vincent and the grenadines at a gastropub
+slot_pred: ['O', 'O', 'O', 'O', 'B-timeRange', 'O', 'B-country', 'I-country', 'I-country', 'I-country', 'I-country', 'O', 'O', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+can i listen to dj vibe s top 10
+slot_pred: ['O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-sort', 'I-sort']
+intent_pred: PlayMusic
+
+what films are at the nearest cinema
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type']
+intent_pred: SearchScreeningEvent
+
+what is the weather like in north salt lake and afghanistan
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'I-city', 'I-city', 'O', 'B-country']
+intent_pred: GetWeather
+
+can you tell me the actors of the saga awards/
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'O', 'O', 'B-object_type', 'O']
+intent_pred: SearchCreativeWork
+
+go to my all out 00s and add brian wilson
+slot_pred: ['O', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O', 'O', 'B-artist', 'I-artist']
+intent_pred: AddToPlaylist
+
+food truck in panama for five
+slot_pred: ['B-restaurant_type', 'I-restaurant_type', 'O', 'B-country', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+look up the movie schedule
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+book a table for chasity ruiz and mary at the fat duck in puerto rico
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-state', 'I-state']
+slot_real: ['O', 'O', 'O', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-country', 'I-country']
+intent_pred: BookRestaurant
+
+find the gill deacon show
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find the movie schedule for films in the area
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+will i be able to watch camping-car at movie house at 6 pm
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-movie_name', 'O', 'B-object_location_type', 'I-object_location_type', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+play how does it work by helen carter
+slot_pred: ['O', 'B-track', 'I-track', 'I-track', 'I-track', 'O', 'B-artist', 'I-artist']
+slot_real: ['O', 'B-album', 'I-album', 'I-album', 'I-album', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+what s the weather like in schenectady ma
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'B-state']
+intent_pred: GetWeather
+
+play some folk-rock music
+slot_pred: ['O', 'O', 'B-genre', 'O']
+intent_pred: PlayMusic
+
+give this current book zero out of 6
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+rate this album 5 points
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+how is the weather right now at my current place
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'O', 'O', 'B-current_location', 'I-current_location']
+intent_pred: GetWeather
+
+play sixties music by giovanni battista guadagnini
+slot_pred: ['O', 'B-year', 'O', 'O', 'B-artist', 'I-artist', 'I-artist']
+intent_pred: PlayMusic
+
+tell me the weather forecast close by brown county state park for meal time
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'O', 'B-timeRange', 'O']
+intent_pred: GetWeather
+
+play the last wellman braud album relaesd
+slot_pred: ['O', 'O', 'B-sort', 'B-artist', 'I-artist', 'B-music_item', 'B-album']
+slot_real: ['O', 'O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O']
+intent_pred: PlayMusic
+
+play sugar baby by frank beard
+slot_pred: ['O', 'B-track', 'I-track', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+find the schedule for the solitude of prime numbers at the nearest cinema in 1 hour
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+play the discografia de the pretty reckless saga
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+i want to give the current textbook 0 out of 6 stars
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+show me movie times for animated movies playing three hours from now in the neighbourhood
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'I-movie_type', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+find the game just dance greatest hits
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add this track to the sin ti playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show me the closest movie house playing an unfinished life at eight pm
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+what s it like in bahrain right now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-country', 'O', 'B-timeRange']
+intent_pred: GetWeather
+
+can you add blood on the face to the playlist called heartland country
+slot_pred: ['O', 'O', 'O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'O', 'O', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+on jan  the twentieth what will it feel like in ct or the area not far from it
+slot_pred: ['O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'O', 'O', 'O', 'O', 'B-state', 'O', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'O', 'O']
+intent_pred: GetWeather
+
+i need a table in uruguay in 213 days when it s chillier
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-country', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'O', 'B-condition_temperature']
+intent_pred: BookRestaurant
+actual_real: GetWeather
+
+add this track by horace andy to acoustic soul
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+plan an album by roni duani
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+add song to siesta
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist']
+intent_pred: AddToPlaylist
+
+can you tell me the weather forecast for samoa
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-country']
+intent_pred: GetWeather
+
+play music on youtube
+slot_pred: ['O', 'O', 'O', 'B-service']
+intent_pred: PlayMusic
+
+add spirit touches ground to my leche con chocolate list
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i need a table for 1 minute from now at any pub for five around in that also serves fisn n chips
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'B-spatial_relation', 'O', 'O', 'O', 'O', 'B-served_dish', 'I-served_dish', 'I-served_dish']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'B-spatial_relation', 'B-state', 'O', 'O', 'O', 'B-served_dish', 'I-served_dish', 'I-served_dish']
+intent_pred: BookRestaurant
+
+book a spot at the food truck in ma
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'I-restaurant_type', 'O', 'B-state']
+intent_pred: BookRestaurant
+
+21 weeks from now elinor  crystal turner and nita want to eat german food at a bar in distant california
+slot_pred: ['B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'O', 'O', 'B-cuisine', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-spatial_relation', 'B-state']
+intent_pred: BookRestaurant
+
+find a tv show called ruthless
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+find animated movies close by with a movie schedule
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'B-spatial_relation', 'I-spatial_relation', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+book a spot for 7 at an outdoor food court in denmark
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-facility', 'B-restaurant_type', 'I-restaurant_type', 'O', 'B-country']
+intent_pred: BookRestaurant
+
+i would rate the persistence of vision 1 stars and a best rating of 6
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'O', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+i need a reservation for february 27  2020 at a bar that serves paté
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-served_dish']
+intent_pred: BookRestaurant
+
+find the ghost of tom joad
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i need a reservation for ten at a tavern in west virginia
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-restaurant_type', 'O', 'B-state', 'I-state']
+intent_pred: BookRestaurant
+
+what time is children of divorce playing
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+will there be a blizzard in white house curacao
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-city', 'I-city', 'B-country']
+intent_pred: GetWeather
+
+play the top melody from artist maakii
+slot_pred: ['O', 'O', 'B-sort', 'B-music_item', 'O', 'O', 'B-artist']
+intent_pred: PlayMusic
+
+are any animated movies playing at magic johnson theatres
+slot_pred: ['O', 'O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+give the current album a five
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+i want to add digital line to my playlist called infantil
+slot_pred: ['O', 'O', 'O', 'O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'O', 'O', 'B-playlist']
+intent_pred: AddToPlaylist
+
+the current essay gets four points
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+what will the weather be in grand coteau ut at six pm
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city', 'I-city', 'B-state', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+can you find me a trailer for phineas redux
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add the singer ivan roudyk to my fairy tales playlists
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add song in my playlist dance workout
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist_owner', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+what movies can i see in the area
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+tell me what films are playing at plitt theatres
+slot_pred: ['O', 'O', 'O', 'B-movie_type', 'O', 'O', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+add in the heart of the world to the epic gaming playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find movie times
+slot_pred: ['O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+rate the book english grammar in use a five
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+play tujiko noriko s ten years and running
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-album', 'I-album', 'I-album', 'I-album']
+intent_pred: PlayMusic
+
+add the song to the soundscapes for gaming playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+can you put a song by jessica mauboy on my playlist entitled a sudden rainstorm
+slot_pred: ['O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+show movie schedule
+slot_pred: ['O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+show me movie schedules for today
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'O']
+intent_pred: SearchScreeningEvent
+
+add cecil womack to my 50 great female voices playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+will it be freezing here in 9 seconds
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'B-current_location', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+forecast for serbia
+slot_pred: ['O', 'O', 'B-country']
+intent_pred: GetWeather
+
+i want to give a mortal flower a two
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+where can i view the picture reaching horizons
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+in hawaii will it be warmer at 3 am
+slot_pred: ['O', 'B-state', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+rate the little book four stars
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+rate the current textbook one of 6 stars
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+i want a table for five at a restaurant with latin food in arkansas for 1 hour from now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-restaurant_type', 'O', 'B-cuisine', 'O', 'O', 'B-state', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+find love will tear us apart  a photograph
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+please play me a popular track from 1984
+slot_pred: ['O', 'O', 'O', 'O', 'B-sort', 'B-music_item', 'O', 'B-year']
+intent_pred: PlayMusic
+
+book a mediterranean restaurant for my sister and i
+slot_pred: ['O', 'O', 'B-cuisine', 'B-restaurant_type', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description']
+intent_pred: BookRestaurant
+
+how will the weather be different 5 years from now in waconia
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city']
+intent_pred: GetWeather
+
+search for teenage mutant hero turtles: fall of the foot clan photograph
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+play party anthems
+slot_pred: ['O', 'B-playlist', 'I-playlist']
+intent_pred: PlayMusic
+
+what is the niceville forecast in fm
+slot_pred: ['O', 'O', 'O', 'B-city', 'O', 'O', 'B-state']
+intent_pred: GetWeather
+
+find heat wave
+slot_pred: ['O', 'B-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+which is the nearest movie house playing the diary of anne frank
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+can i have the movie schedule for imax corporation
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+book me a reservation for eight for the top-rated bakery eleven hours from now in mango
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-sort', 'B-restaurant_type', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+play yung joc on slacker
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-service']
+intent_pred: PlayMusic
+
+show 50 words for snow creative picture
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+play the electrochemical and solid state letters song
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+table for 8 at a popular food court
+slot_pred: ['O', 'O', 'B-party_size_number', 'O', 'O', 'B-sort', 'B-restaurant_type', 'I-restaurant_type']
+intent_pred: BookRestaurant
+
+find me a table for 8 people at a nearby al restaurant one minute from now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'O', 'B-spatial_relation', 'B-state', 'B-restaurant_type', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+is there rain now in maine
+slot_pred: ['O', 'O', 'B-condition_description', 'B-timeRange', 'O', 'B-state']
+intent_pred: GetWeather
+
+show me the photograph johnny cash: the complete columbia album collection
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find movie schedules
+slot_pred: ['O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+find movie schedules for  united paramount theatres
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+what is the forecast for montana at dinner
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-state', 'O', 'B-timeRange']
+intent_pred: GetWeather
+
+please add this track to my de camino playlist
+slot_pred: ['O', 'O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+book me a restaurant please
+slot_pred: ['O', 'O', 'O', 'B-restaurant_type', 'O']
+intent_pred: BookRestaurant
+
+find drumline: a new beat  a picture
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+play the red room sessions from chris cunningham
+slot_pred: ['O', 'B-album', 'I-album', 'I-album', 'I-album', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+play the great adventures of slick rick game
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+list movie schedules for movies playing close by
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'O', 'B-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+i am looking for the tv show called the flight of the lost balloon
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add david axelrod to my futuros hits list
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play me sun ra songs from the fifties
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+add this track to my dinnertime acoustics playist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add tune to atmospheric black metal playlist
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+need to see mother joan of the angels in one second
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+give 2 out of 6 points to the following textbook
+slot_pred: ['O', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit', 'O', 'O', 'B-object_select', 'B-object_type']
+intent_pred: RateBook
+
+i would like to book a restaurant for two in 42 weeks from now in wagram
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+play some last fm music like the 1992 ep from peaches
+slot_pred: ['O', 'O', 'B-service', 'I-service', 'O', 'O', 'O', 'B-year', 'B-music_item', 'O', 'B-artist']
+intent_pred: PlayMusic
+
+where is the closest cinema playing a drink in the passage
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+i m hoping you can find a photograph from live at the isle of wight 1970
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what movies are around here
+slot_pred: ['O', 'B-movie_type', 'O', 'B-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+book a restaurant distant from downtown
+slot_pred: ['O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'O', 'B-poi']
+intent_pred: BookRestaurant
+
+find doggy day school  an album
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+please play bitch please ii
+slot_pred: ['O', 'O', 'B-track', 'I-track', 'I-track']
+intent_pred: PlayMusic
+
+find a video game called young
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+is strauss is playing today at the cineplex odeon corporation
+slot_pred: ['O', 'B-movie_name', 'O', 'O', 'O', 'O', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+slot_real: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+award this current novel 0 points
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+weather for this winter here
+slot_pred: ['O', 'O', 'B-timeRange', 'I-timeRange', 'B-current_location']
+intent_pred: GetWeather
+
+what animated movies are playing at the closest movie theatre
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+rate this book four of 6 points
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+i want to go see the trouble with girls
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchCreativeWork
+actual_real: SearchScreeningEvent
+
+cock-a-doodle-doo was awful  i m giving it a 0 out of 6
+slot_pred: ['B-object_name', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+show me the schedule of films in the neighbourhood
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'O', 'B-movie_type', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+book a table for nine people in svalbard and jan mayen
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-country', 'I-country', 'I-country', 'I-country']
+intent_pred: BookRestaurant
+
+i would give french poets and novelists a best rating of 6 and a value of three
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'O', 'O', 'O', 'B-best_rating', 'O', 'O', 'O', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+what animated movies are playing nearby
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+will there be a cloud here at 06:50:20
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'B-current_location', 'O', 'B-timeRange']
+intent_pred: GetWeather
+
+i want to give the chronicle zombie bums from uranus 3 points
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_part_of_series_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+i d like to know when i can see the taking of flight 847: the uli derickson story at amco entertainment
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+play is this my world by leo arnaud
+slot_pred: ['O', 'B-track', 'I-track', 'I-track', 'I-track', 'O', 'B-artist', 'I-artist']
+slot_real: ['O', 'B-album', 'I-album', 'I-album', 'I-album', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+book a reservation for clinton street baking company & restaurant distant from downtown
+slot_pred: ['O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'B-spatial_relation', 'O', 'B-poi']
+intent_pred: BookRestaurant
+
+add nyoil to my this is prince playlist
+slot_pred: ['O', 'B-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+slot_real: ['O', 'B-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+show me the everybody wants you picture
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+find a restaurant in fm that servec quiche
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-state', 'O', 'O', 'I-served_dish']
+slot_real: ['O', 'O', 'B-restaurant_type', 'O', 'B-state', 'O', 'O', 'B-served_dish']
+intent_pred: BookRestaurant
+
+i would give this current novel 2 stars with a best rating of 6
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'O', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+i want to book a pastelaria cafe in alabama for me and my great grandfather
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-cuisine', 'B-restaurant_type', 'O', 'B-state', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description']
+intent_pred: BookRestaurant
+
+is hail in the weather forecast for monterey bay national marine sanctuary
+slot_pred: ['O', 'B-condition_description', 'O', 'O', 'O', 'O', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+add tune to sxsw fresh playlist
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+make a reservation in a popular sicilian bar place nearby  for me only  tomorrow
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-sort', 'B-cuisine', 'B-restaurant_type', 'O', 'B-spatial_relation', 'O', 'O', 'O', 'B-timeRange']
+intent_pred: BookRestaurant
+
+i need a table for 9
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+add this artist to my post-grunge playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'O']
+intent_pred: AddToPlaylist
+
+rate this album a 2
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+what will the weather be like this tuesday in the area neighboring rendezvous mountain educational state forest
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'O', 'O', 'O', 'B-spatial_relation', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+i need a table in ottoville on feb  15th  2029 at gus stevens seafood restaurant & buccaneer lounge
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name']
+intent_pred: BookRestaurant
+
+i need a table for five at childs restaurants in brunei
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-restaurant_name', 'I-restaurant_name', 'O', 'B-country']
+intent_pred: BookRestaurant
+
+how do i get the game still on it
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'O', 'O']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i would like to make a reservation for 2 for brunch
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-timeRange']
+intent_pred: BookRestaurant
+
+need a table  for party of five for december 26  2040 in the state of mt
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'O', 'O', 'B-state']
+intent_pred: BookRestaurant
+
+book me a restaurant for nine in statham
+slot_pred: ['O', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+i d like a table for ten in 2 minutes at french horn  sonning eye
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name']
+intent_pred: BookRestaurant
+
+find a movie house for 07:52 showing ganges: river to heaven
+slot_pred: ['O', 'O', 'B-object_location_type', 'I-object_location_type', 'O', 'B-timeRange', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+what is the michael moore is a big fat stupid white man video game
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type', 'I-object_type']
+intent_pred: SearchCreativeWork
+
+i want to eat close to bowlegs seven years from now
+slot_pred: ['O', 'O', 'O', 'O', 'B-spatial_relation', 'O', 'B-city', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+for my playlist chill add the name cater fe she
+slot_pred: ['O', 'B-playlist_owner', 'O', 'B-playlist', 'O', 'O', 'O', 'B-entity_name', 'I-entity_name', 'I-entity_name']
+intent_pred: AddToPlaylist
+
+search for the halfway home tv show
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'B-object_type', 'I-object_type']
+intent_pred: SearchCreativeWork
+
+find movie times
+slot_pred: ['O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+play journey list
+slot_pred: ['O', 'B-playlist', 'O']
+intent_pred: PlayMusic
+
+tell me what animated movies i can see at the closest movie theatre
+slot_pred: ['O', 'O', 'O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+i d like to see the trailer tony parker
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what time is holiday heart showing at the movie house
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'O', 'O', 'O', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+play the movie white christmas
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+is it forecast to be warm in doi inthanon national park
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+add this tune to cristina s endorphin rush playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play a song by nash the slash
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'I-artist']
+intent_pred: PlayMusic
+
+i rate doom 3: worlds on fire a 1 of 6
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+what time is phil ochs: there but for fortune playing at the movie house
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'O', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+add andreas johnson to my rock save the queen playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i d like to watch take this waltz
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+what are the mann theatres showtimes for secret sunshine
+slot_pred: ['O', 'O', 'O', 'B-location_name', 'I-location_name', 'O', 'O', 'B-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+will there be snowfall in kitlope heritage conservancy
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+play geddy lee music on spotify sort by top
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'O', 'B-service', 'O', 'O', 'B-sort']
+intent_pred: PlayMusic
+
+rate in the eyes of mr  fury zero of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+look up the tv series operace silver a
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i m looking for the tv series  called unborn
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+play the song memories are my only witness
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i give the phishing manual four stars out of 6
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+play clásicos del hip hop español
+slot_pred: ['O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: PlayMusic
+
+add rupee to my ultra metal playlist
+slot_pred: ['O', 'B-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+slot_real: ['O', 'B-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add shi xin hui to my piano chill playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+what time is the clutching hand playing at amco entertainment
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+add circus to my post garage wave revival list
+slot_pred: ['O', 'B-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+the chronicle charlie peace earns 4 stars from me
+slot_pred: ['O', 'B-object_part_of_series_type', 'B-object_name', 'I-object_name', 'O', 'B-rating_value', 'B-rating_unit', 'O', 'O']
+intent_pred: RateBook
+
+find conker: live and reloaded
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+show me the nearest movie house showing the luckiest girl in the world
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+play track music from peter finestone on netflix sort by newest
+slot_pred: ['O', 'B-music_item', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-service', 'O', 'O', 'B-sort']
+intent_pred: PlayMusic
+
+play the song shine a light
+slot_pred: ['O', 'O', 'B-music_item', 'B-track', 'I-track', 'I-track']
+intent_pred: PlayMusic
+
+book a popular restaurant of thai cuisine
+slot_pred: ['O', 'O', 'B-sort', 'B-restaurant_type', 'O', 'B-cuisine', 'O']
+intent_pred: BookRestaurant
+
+which animated movies are playing in the neighbourhood and when
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'O']
+intent_pred: SearchScreeningEvent
+
+i want to listen to the song only the greatest
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i d like to eat at the best restaurant
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+is it going to be chilly in western sahara in 13 hours
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-country', 'I-country', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-country', 'I-country', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+i want to book a restaurant for four around zapata
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'B-spatial_relation', 'B-city']
+intent_pred: BookRestaurant
+
+rate if tomorrow comes 2 of 6 stars
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+the book history by contract is rated five stars in my opinion
+slot_pred: ['O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'O', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'O']
+intent_pred: RateBook
+
+i want to book a bar in bonaparte palau
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-city', 'B-state']
+intent_pred: BookRestaurant
+
+i m looking for dead at 21  the tv series
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchCreativeWork
+
+can you make reservations at a tea house that serves fettucine
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'I-restaurant_type', 'O', 'O', 'B-served_dish']
+intent_pred: BookRestaurant
+
+put a track by lil mama into my guest list sneaky zebra playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+put some frank ferrer into my edna st vincent millay playlist
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+what is the forecast for niger
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-country']
+intent_pred: GetWeather
+
+rate this novel a 3
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+add this ruth crawford seeger song to my playlist called the soundtrack 007
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist_owner', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+is it going to snow next year in wv
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'B-timeRange', 'I-timeRange', 'O', 'B-state']
+intent_pred: GetWeather
+
+is romulus and the sabines playing at the nearest cinema at ten
+slot_pred: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'O', 'B-timeRange']
+intent_pred: SearchScreeningEvent
+
+show me the new showings for animated movies in the neighborhood
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-movie_type', 'I-movie_type', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+play the video game the genesis machine
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i want to go to 88th st-boyd av or close by and book seats for 10
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-poi', 'I-poi', 'I-poi', 'O', 'B-spatial_relation', 'I-spatial_relation', 'O', 'O', 'O', 'O', 'B-party_size_number']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-poi', 'I-poi', 'I-poi', 'O', 'B-spatial_relation', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+i need to add to the funk soul disco playlist my favorite artist
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O', 'B-playlist_owner', 'O', 'B-music_item']
+intent_pred: AddToPlaylist
+
+i want to book a cafe for 3 in fargo
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+where can i watch tv series shopping spree
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play an andy silvester sound track from the thirties on spotify
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'I-music_item', 'O', 'O', 'B-year', 'O', 'B-service']
+intent_pred: PlayMusic
+
+i d like to eat at a popular brasserie in chile with a party of 5
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'B-restaurant_type', 'O', 'B-country', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+what s the forecast for my current place at five pm
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-current_location', 'I-current_location', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+give private games 3 stars out of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+in 17 minutes  will it be foggy in songimvelo game reserve
+slot_pred: ['B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+how hot will it be in wisconsin on august fourth
+slot_pred: ['O', 'B-condition_temperature', 'O', 'O', 'O', 'O', 'B-state', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+i d like to put qriii onto songs to sing in the car
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+will it be chilly in oakdale ok
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'B-city', 'B-state']
+intent_pred: GetWeather
+
+add dwele to marguerite s eurovision 2016 playlist
+slot_pred: ['O', 'B-artist', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+what s the weather forecast for croatia on jul  25th
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-country', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+find tv series titled a life in the death of joe meek
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+open fadl shaker on spotify and play a melody starting with the newest
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-service', 'O', 'O', 'O', 'B-music_item', 'O', 'O', 'O', 'B-sort']
+intent_pred: PlayMusic
+
+please add jency anthony to my playlist this is mozart
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+whats the weather in ga
+slot_pred: ['O', 'O', 'O', 'O', 'B-state']
+intent_pred: GetWeather
+
+i rate the chronicle  son of the tree with four of 6 points
+slot_pred: ['O', 'O', 'O', 'B-object_part_of_series_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+add git to domingo indie
+slot_pred: ['O', 'B-entity_name', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+will there be cloud coverage in verdery  myanmar
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'O', 'B-city', 'B-country']
+intent_pred: GetWeather
+
+rate maps for lost lovers 1 of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+will it snow in granbury
+slot_pred: ['O', 'O', 'B-condition_description', 'O', 'B-city']
+intent_pred: GetWeather
+
+play me a cinder block movement
+slot_pred: ['O', 'O', 'O', 'B-genre', 'I-track', 'B-music_item']
+slot_real: ['O', 'O', 'O', 'B-artist', 'I-artist', 'B-music_item']
+intent_pred: PlayMusic
+
+find the tv series shaun the sheep
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i want to hear the jody williams sound track
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'I-music_item']
+intent_pred: PlayMusic
+
+what is the forecast for foggy conditions here in twenty one minutes
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-current_location', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+book a table at grecian coffee house for 7 on apr  7th  2024
+slot_pred: ['O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+show creative photograph of icewind dale: heart of winter
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate the manxman 5 out of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+add this song to my lo que suena new york playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find reproductions: songs of the human league
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play a 2001 sound track on deezer
+slot_pred: ['O', 'O', 'B-year', 'B-music_item', 'I-music_item', 'O', 'B-service']
+intent_pred: PlayMusic
+
+weather for ma in the morning
+slot_pred: ['O', 'O', 'B-state', 'O', 'O', 'B-timeRange']
+intent_pred: GetWeather
+
+play a ballad by bob johnston
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+is there a snowstorm in russia
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'B-country']
+intent_pred: GetWeather
+
+will it be nice on aug  the nineteenth in beda bulgaria
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city', 'B-country']
+intent_pred: GetWeather
+
+i d like for you to put this artist to my evening commute playlist
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play the caps lock trailer
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+give me the movie schedules for warren theatres
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+i need current movie schedules
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+add even serpents shine to dorothea s indie hipster playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play ep by arjen anthony lucassen
+slot_pred: ['O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'I-artist']
+intent_pred: PlayMusic
+
+give 4 points to this novel
+slot_pred: ['O', 'B-rating_value', 'B-rating_unit', 'O', 'B-object_select', 'B-object_type']
+intent_pred: RateBook
+
+add star light  star bright to my jazz classics playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+put nothing remains the same on my summer music playlist
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+weather for the night time in new mexico
+slot_pred: ['O', 'O', 'O', 'B-timeRange', 'O', 'O', 'B-state', 'I-state']
+intent_pred: GetWeather
+
+add pangaea to my gold edition playlist
+slot_pred: ['O', 'B-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+find me a movie with the name oshin
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'O', 'O', 'O', 'B-object_name']
+intent_pred: SearchCreativeWork
+
+add ian stuart donaldson to canadian country
+slot_pred: ['O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+show me movie time for i am sorry  at my movie house
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'O', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+please add ruud jolie to my playlist guest list polygon
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+add patti page album to i love my neo soul
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+add an album by twink to my classic country playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+will it be a snowy day in dalcour
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'B-timeRange', 'O', 'B-city']
+intent_pred: GetWeather
+
+rate this essay a two out of 6
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+find the movie schedules for animated movies nearby at 09:44 am
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'I-movie_type', 'B-spatial_relation', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+add armand van helden to my black sabbath the ozzy years playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+give this chronicle a 4
+slot_pred: ['O', 'B-object_select', 'B-object_part_of_series_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+i m looking for a churrascaria place with wifi that can serve a party of five
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'O', 'B-facility', 'O', 'O', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+what time is goodbye mothers playing
+slot_pred: ['O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+book the city tavern in holiday ks
+slot_pred: ['O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'O', 'B-city', 'B-state']
+intent_pred: BookRestaurant
+
+what movies are playing dickinson theatres
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+rate the key word and other mysteries 4 of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+i d like to watch may blossom
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+play some music on slacker
+slot_pred: ['O', 'O', 'O', 'O', 'B-service']
+intent_pred: PlayMusic
+
+i want to rate the ingenuity gap 3 out of 6
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+add song to my wild country playlist
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+what is the weather forecast for close-by burkina
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'B-country']
+intent_pred: GetWeather
+
+i want to watch supernatural: the unseen powers of animals
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+listen to dragon ball: music collection
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add troy van leeuwen to my nu metal list
+slot_pred: ['O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add born free to fresh r&b
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+book at table at forest av restaurant close-by for 2 1 second from now
+slot_pred: ['O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'B-restaurant_type', 'B-spatial_relation', 'O', 'B-party_size_number', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+slot_real: ['O', 'O', 'O', 'O', 'B-poi', 'I-poi', 'B-restaurant_type', 'B-spatial_relation', 'O', 'B-party_size_number', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+can you get me the trailer of the multiversity
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+are there movies at malco theatres
+slot_pred: ['O', 'O', 'B-movie_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+rate the current chronicle series 3 out of 6 points
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_part_of_series_type', 'I-object_part_of_series_type', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+can i get the movie times
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+i want to add hind etin to my la mejor música dance 2017 playlist
+slot_pred: ['O', 'O', 'O', 'O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play some latin on zvooq
+slot_pred: ['O', 'O', 'B-genre', 'O', 'B-service']
+intent_pred: PlayMusic
+
+what is the freezing forecast for british virgin islands
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'O', 'B-country', 'I-country', 'I-country']
+intent_pred: GetWeather
+
+pull up sweeney todd - il diabolico barbiere di fleet street
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+put four rating on the raging quiet
+slot_pred: ['O', 'B-rating_value', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: RateBook
+
+show me the tv show limit of love: umizaru
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+which movies are playing at the closest cinema
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type']
+intent_pred: SearchScreeningEvent
+
+add this album by karl davydov to reyna s this is luis fonsi playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+where can i see the television show falling away from me
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book me a table for 5 at a best rated restaurant in italy
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'B-sort', 'I-sort', 'B-restaurant_type', 'O', 'B-country']
+intent_pred: BookRestaurant
+
+will there be a snowstorm in taberville
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-city']
+intent_pred: GetWeather
+
+add this song to this is no te va gustar playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+can i get the movies  showtimes for the closest movie house
+slot_pred: ['O', 'O', 'O', 'O', 'B-movie_type', 'O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type']
+intent_pred: SearchScreeningEvent
+
+do you have something like impossible is nothing by abderrahmane abdelli
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-track', 'I-track', 'I-track', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+what is the weather forecast for cistern
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-city']
+intent_pred: GetWeather
+
+please make reservations in yeager for seven am at a highly rated indian brasserie
+slot_pred: ['O', 'O', 'O', 'O', 'B-city', 'O', 'B-timeRange', 'I-timeRange', 'O', 'O', 'B-sort', 'I-sort', 'B-cuisine', 'B-restaurant_type']
+intent_pred: BookRestaurant
+
+play me a nineties sound track
+slot_pred: ['O', 'O', 'O', 'B-year', 'B-music_item', 'I-music_item']
+intent_pred: PlayMusic
+
+where can i find thor meets captain america
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i need to have pat alger s album placed onto the spotlight spain 2016 playlist
+slot_pred: ['O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-music_item', 'O', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+can i get the movie times for fox theatres
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+i d like to watch wish you were dead
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+i d like to watch apocalypse 2024
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+show creativity of song a discord electric
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+is love and other troubles playing
+slot_pred: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+show me the current movie times
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+rate the lie tree five
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-rating_value']
+intent_pred: RateBook
+
+i want to add another album to the wine & dine playlist
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add another tune to my pumping iron playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play a track by mila islam from deezer
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-service']
+intent_pred: PlayMusic
+
+is it rainy season in manitou springs
+slot_pred: ['O', 'O', 'B-condition_description', 'I-timeRange', 'O', 'B-city', 'I-city']
+slot_real: ['O', 'O', 'B-condition_description', 'O', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+give 2 stars to the doom brigade
+slot_pred: ['O', 'B-rating_value', 'B-rating_unit', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: RateBook
+
+add this tune to my dinnertime acoustics list
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+what are the current movie schedules
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+what is the showtime for arsho
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-movie_name']
+intent_pred: SearchScreeningEvent
+
+list movie times at harkins theatres
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+what movies are showing in the neighborhood
+slot_pred: ['O', 'B-movie_type', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+play my playlist tgif on itunes
+slot_pred: ['O', 'O', 'O', 'B-playlist', 'O', 'B-service']
+intent_pred: PlayMusic
+
+what will the weather be like on january 2nd  2025 in ga
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-state']
+intent_pred: GetWeather
+
+what animated movies are playing in the neighbourhood and when
+slot_pred: ['O', 'B-movie_type', 'I-movie_type', 'O', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'O']
+intent_pred: SearchScreeningEvent
+
+book a spot at savoy hotel and grill that is neighboring wisconsin
+slot_pred: ['O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'O', 'B-spatial_relation', 'B-state']
+intent_pred: BookRestaurant
+
+can you find me the back when i knew it all album
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+add george thorogood to el mejor rock en español
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+play the album how insensitive
+slot_pred: ['O', 'O', 'B-music_item', 'B-album', 'I-album']
+intent_pred: PlayMusic
+
+i m looking for the pokémon: the movie 2000 tv show
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-object_type', 'I-object_type']
+intent_pred: SearchCreativeWork
+
+place this tune onto my dinner for 2 playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+where can i see the trailer for love on the beat
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+list movie times at megaplex theatres
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+will it be chillier at 06:05:48 in wagener réunion
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'O', 'B-city', 'B-country']
+intent_pred: GetWeather
+
+what is the weather in south bradenton
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+get jump down painting
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+please book a room in spaghetti warehouse for catalina  delores and brandie mendoza at 12 am
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_name', 'I-restaurant_name', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+what is the nh forecast for mexican hat
+slot_pred: ['O', 'O', 'O', 'B-state', 'O', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+i need to book a top-rated steakhouse this autumn  for 1 around azerbaijan
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-sort', 'B-restaurant_type', 'B-timeRange', 'I-timeRange', 'O', 'B-party_size_number', 'B-spatial_relation', 'B-country']
+intent_pred: BookRestaurant
+
+will it be chillier at my current location in one minute
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'O', 'B-current_location', 'I-current_location', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+show me heavenly sword
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what is the weather forecast for close-by gu 3 years from now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-spatial_relation', 'B-state', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+will it be freezing on 4/20/2038 in american beach nc
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'O', 'B-city', 'I-city', 'B-state']
+intent_pred: GetWeather
+
+i need the wather for next week in the philippines
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-timeRange', 'I-timeRange', 'O', 'O', 'B-country']
+intent_pred: GetWeather
+
+add tune to my metal crash course playlist
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i would like to book the best food court with persian food within the same area as ok for my ex husband and i
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'B-restaurant_type', 'I-restaurant_type', 'O', 'B-cuisine', 'O', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'B-state', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description']
+intent_pred: BookRestaurant
+
+i d like to see the picture the principle of hope
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate this series 2 out of 6
+slot_pred: ['O', 'B-object_select', 'B-object_part_of_series_type', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+find a man needs a maid
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book a restaurant close by my daughters s work location with burrito three years from now
+slot_pred: ['O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'I-spatial_relation', 'B-poi', 'I-poi', 'I-poi', 'I-poi', 'I-poi', 'O', 'B-served_dish', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+add this tune to the refugee playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+find time for movie times now
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-timeRange']
+intent_pred: SearchScreeningEvent
+
+i would like to book a highly rated brasserie with souvlaki neighboring la next week
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'I-sort', 'B-restaurant_type', 'O', 'B-served_dish', 'B-spatial_relation', 'B-state', 'B-timeRange', 'I-timeRange']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'O', 'B-sort', 'I-sort', 'B-restaurant_type', 'O', 'B-cuisine', 'B-spatial_relation', 'B-state', 'B-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+find the panic in needle park
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+slot_real: ['O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchCreativeWork
+actual_real: SearchScreeningEvent
+
+is it freezing on jun  the 21st in apshawa south africa
+slot_pred: ['O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'O', 'B-city', 'B-country', 'I-country']
+intent_pred: GetWeather
+
+i need to take three people to eat
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'O', 'O']
+intent_pred: BookRestaurant
+
+play a 2006 chant
+slot_pred: ['O', 'O', 'B-year', 'B-music_item']
+intent_pred: PlayMusic
+
+show me the schedule of the loves of letty in cinema closest
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name', 'O', 'B-object_location_type', 'B-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+play the top 20 ep from the fifties by john bundrick
+slot_pred: ['O', 'O', 'B-sort', 'I-sort', 'B-music_item', 'O', 'O', 'B-year', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+show creativity of photograph of my wonderful day
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book a table in the united states for 10 at the berghoff
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-country', 'I-country', 'O', 'B-party_size_number', 'O', 'B-restaurant_name', 'I-restaurant_name']
+intent_pred: BookRestaurant
+
+i d like to book a brasserie in virginia city  ga
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'O', 'B-city', 'I-city', 'B-state']
+intent_pred: BookRestaurant
+
+will it be temperate in the same area in vi
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'B-state']
+intent_pred: GetWeather
+
+rate the current novel four out of 6 points
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+is it going to get chillier near hocking state forest
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'B-spatial_relation', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi']
+intent_pred: GetWeather
+
+for the current saga i rate 2 of 6 stars
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_part_of_series_type', 'O', 'O', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+i want to play the video game espn major league soccer
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate the current book a three
+slot_pred: ['O', 'O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+rate this novel 0 of 6 stars
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+is it going to be chillier at 10 pm in texas
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_temperature', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-state']
+intent_pred: GetWeather
+
+what s the weather in timbo
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-city']
+intent_pred: GetWeather
+
+add the blurred crusade to crate diggers anonymous
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+tell me the weather forecast for sugarloaf provincial park ten weeks from now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+add a gackt camui track to the white noise playlist
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+rate canto for a gypsy two of 6 stars
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+i m looking for circus world
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+this textbook gets a two
+slot_pred: ['B-object_select', 'B-object_type', 'O', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+show me the movie times
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'I-object_type']
+intent_pred: SearchScreeningEvent
+
+add song to my underground hits
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+play the album journeyman
+slot_pred: ['O', 'O', 'B-music_item', 'B-album']
+slot_real: ['O', 'O', 'B-object_type', 'B-object_name']
+intent_pred: PlayMusic
+actual_real: SearchCreativeWork
+
+find the family jams saga
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'B-object_type']
+slot_real: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+play rob mills album the golden archipelago
+slot_pred: ['O', 'B-artist', 'I-artist', 'B-music_item', 'B-album', 'I-album', 'I-album']
+intent_pred: PlayMusic
+
+book a spot at a restaurant within walking distance of palau
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-restaurant_type', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'B-state']
+intent_pred: BookRestaurant
+
+find me the balance and timing book
+slot_pred: ['O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+find movie schedules for bow tie cinemas
+slot_pred: ['O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+add get happy to cherry s las canciones más lindas del mundo
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+rate this textbook a 1
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+shw the picture twin husbands
+slot_pred: ['O', 'O', 'B-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate a taste of blackberries  a three
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value']
+intent_pred: RateBook
+
+play the 1991 soundtrack from ian mcdonald
+slot_pred: ['O', 'O', 'B-year', 'B-music_item', 'O', 'B-artist', 'I-artist']
+intent_pred: PlayMusic
+
+find an album called just call me stupid
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+play the insoc ep
+slot_pred: ['O', 'O', 'B-album', 'I-album']
+slot_real: ['O', 'B-album', 'I-album', 'I-album']
+intent_pred: PlayMusic
+
+i want to hear major harris s songs from the fifties
+slot_pred: ['O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+book a restaurant in donnelly
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+rate the saint in trouble 1 of 6
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+play punk rock music
+slot_pred: ['O', 'B-genre', 'I-genre', 'O']
+intent_pred: PlayMusic
+
+look for a photograph of i wanna sex you up
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+what is the humidity like in faraway on ak
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'O', 'B-spatial_relation', 'O', 'B-state']
+intent_pred: GetWeather
+
+i d like to eat at an internet restaurant with a party of four
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-facility', 'B-restaurant_type', 'O', 'O', 'O', 'O', 'B-party_size_number']
+intent_pred: BookRestaurant
+
+when is just before nightfall playing
+slot_pred: ['O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'O']
+intent_pred: SearchScreeningEvent
+
+play moondog s chupacabra
+slot_pred: ['O', 'B-artist', 'O', 'B-playlist']
+slot_real: ['O', 'B-artist', 'O', 'B-album']
+intent_pred: PlayMusic
+
+add album to pop rising
+slot_pred: ['O', 'B-music_item', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+rate this book three points
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+i am giving this current book album 0 out of 6 stars
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_select', 'B-object_type', 'I-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating', 'B-rating_unit']
+intent_pred: RateBook
+
+play artist vlada divljan from something he did that is good
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'O', 'B-album', 'I-album', 'I-album', 'I-album', 'I-album', 'I-album']
+slot_real: ['O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'O', 'O', 'O', 'O', 'B-sort']
+intent_pred: PlayMusic
+
+what will the humidity be in varnado georgia at one am
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'O', 'B-city', 'B-state', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+add no prejudice to 90s indie
+slot_pred: ['O', 'B-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+what are the movies movie times nearby
+slot_pred: ['O', 'O', 'O', 'B-movie_type', 'B-object_type', 'I-object_type', 'B-spatial_relation']
+intent_pred: SearchScreeningEvent
+
+i want to hear some songs from the twenties
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+please make reservations for nine at 3 am
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+can you pull up queen of the organ
+slot_pred: ['O', 'O', 'O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+lets hear some dawood sarkhosh from their the power of your love album from groove shark
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'O', 'B-album', 'I-album', 'I-album', 'I-album', 'I-album', 'B-music_item', 'O', 'B-service', 'I-service']
+intent_pred: PlayMusic
+
+will it get overcast in la dolores
+slot_pred: ['O', 'O', 'O', 'B-condition_description', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+book a spot for kelli  jean and i at a pub at elevenses
+slot_pred: ['O', 'O', 'O', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'O', 'O', 'B-restaurant_type', 'O', 'B-timeRange']
+intent_pred: BookRestaurant
+
+add this candi staton artist to my dancefloor hits
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+i want to add a song by jazz brasileiro
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist']
+slot_real: ['O', 'O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+rate wielding a red sword 0 stars
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+book a taverna that serves bengali for six at five
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'O', 'B-cuisine', 'O', 'B-party_size_number', 'O', 'B-timeRange']
+intent_pred: BookRestaurant
+
+play the tv series heart of gold
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+show crafty hands saga
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'B-object_type']
+intent_pred: SearchCreativeWork
+
+will it be hotter in wyomissing hills
+slot_pred: ['O', 'O', 'O', 'B-condition_temperature', 'O', 'B-city', 'I-city']
+intent_pred: GetWeather
+
+show weather while sunset in the same area in south carolina
+slot_pred: ['O', 'O', 'O', 'B-timeRange', 'B-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'I-spatial_relation', 'O', 'B-state', 'I-state']
+intent_pred: GetWeather
+
+table for one somewhere in palco
+slot_pred: ['O', 'O', 'B-party_size_number', 'O', 'O', 'B-city']
+intent_pred: BookRestaurant
+
+i would like to add something by kuk harrell to my hip hop 2017 new school playlist
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+add list of rush instrumentals to this is lady antebellum
+slot_pred: ['O', 'O', 'O', 'B-entity_name', 'I-playlist', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+slot_real: ['O', 'B-entity_name', 'I-entity_name', 'I-entity_name', 'I-entity_name', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+where can i see a slice of life
+slot_pred: ['O', 'O', 'O', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+the current textbook gets a 2 rating
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'O', 'O', 'B-rating_value', 'O']
+intent_pred: RateBook
+
+add wing track to all a cappella
+slot_pred: ['O', 'B-artist', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+show me dangers of the canadian mounted
+slot_pred: ['O', 'O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+please add this this tune to the playlist this is selena
+slot_pred: ['O', 'O', 'O', 'O', 'B-music_item', 'O', 'O', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+what will the weather be in stelvio national park 1 hour and 1 minute from now
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'B-geographic_poi', 'I-geographic_poi', 'I-geographic_poi', 'B-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: GetWeather
+
+can you put musiri subramania iyer s song onto the lo-fi love soundtrack
+slot_pred: ['O', 'O', 'O', 'B-artist', 'I-artist', 'I-artist', 'O', 'B-music_item', 'O', 'O', 'B-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+i want to add michelle heaton to this is chopin
+slot_pred: ['O', 'O', 'O', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+show me the movie operetta for the theatre organ
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+where s the nearest movie house playing no trains no planes
+slot_pred: ['O', 'O', 'O', 'B-spatial_relation', 'B-object_location_type', 'I-object_location_type', 'O', 'B-movie_name', 'I-movie_name', 'I-movie_name', 'I-movie_name']
+intent_pred: SearchScreeningEvent
+
+put a xiang xiang track onto women of the blues
+slot_pred: ['O', 'O', 'B-artist', 'I-artist', 'B-music_item', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+can you add a track by david wolfenberger to janell s all funked up playlist
+slot_pred: ['O', 'O', 'O', 'O', 'B-music_item', 'O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'I-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+play the album vibrations by marion elise raven
+slot_pred: ['O', 'O', 'B-music_item', 'B-album', 'O', 'B-artist', 'I-artist', 'I-artist']
+intent_pred: PlayMusic
+
+add fabri fibra to evening acoustic
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist', 'I-playlist']
+intent_pred: AddToPlaylist
+
+can you play any chant from the fourties
+slot_pred: ['O', 'O', 'O', 'O', 'B-music_item', 'O', 'O', 'B-year']
+intent_pred: PlayMusic
+
+show the night riders
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+i m looking for a movie called salvage mice
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find your personal touch
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+add this tune to my weekend playlist
+slot_pred: ['O', 'O', 'B-music_item', 'O', 'B-playlist_owner', 'B-playlist', 'O']
+intent_pred: AddToPlaylist
+
+is it going to storm in black rock alaska
+slot_pred: ['O', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-city', 'I-city', 'B-state']
+intent_pred: GetWeather
+
+show the movie schedules at united paramount theatres
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-location_name', 'I-location_name', 'I-location_name']
+intent_pred: SearchScreeningEvent
+
+i want to read the saga michael clayton
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+book me a table for 3 at tkk fried chicken in sri lanka
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-party_size_number', 'O', 'B-restaurant_name', 'I-restaurant_name', 'I-restaurant_name', 'O', 'B-country', 'I-country']
+intent_pred: BookRestaurant
+
+rate this book titled the improvisatore five stars
+slot_pred: ['O', 'O', 'B-object_type', 'O', 'B-object_name', 'I-object_name', 'B-rating_value', 'B-rating_unit']
+intent_pred: RateBook
+
+book a restaurant for one person at 7 am
+slot_pred: ['O', 'O', 'B-restaurant_type', 'O', 'B-party_size_number', 'O', 'O', 'B-timeRange', 'I-timeRange']
+intent_pred: BookRestaurant
+
+weather for beauregard il
+slot_pred: ['O', 'O', 'B-city', 'B-state']
+intent_pred: GetWeather
+
+will there be alot of wind on march 13th in lost creek bahrain
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'B-condition_description', 'O', 'B-timeRange', 'I-timeRange', 'O', 'B-city', 'I-city', 'B-country']
+intent_pred: GetWeather
+
+i d like a reservation at a place in iran for neva  alice and maggie parker
+slot_pred: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-country', 'O', 'B-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description', 'I-party_size_description']
+intent_pred: BookRestaurant
+
+show me movie schedule for animated movie around here at eleven a m
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-movie_type', 'I-movie_type', 'B-spatial_relation', 'I-spatial_relation', 'O', 'B-timeRange', 'I-timeRange', 'I-timeRange']
+intent_pred: SearchScreeningEvent
+
+i give this book dictionary of the english language a 4 rating
+slot_pred: ['O', 'O', 'O', 'B-object_type', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'I-object_name', 'O', 'B-rating_value', 'O']
+intent_pred: RateBook
+
+play some symphonic rock
+slot_pred: ['O', 'O', 'B-genre', 'I-genre']
+intent_pred: PlayMusic
+
+add to my playlist all funked up this track
+slot_pred: ['O', 'O', 'B-playlist_owner', 'O', 'B-playlist', 'I-playlist', 'I-playlist', 'O', 'B-music_item']
+intent_pred: AddToPlaylist
+
+find a tv series called armageddon summer
+slot_pred: ['O', 'O', 'B-object_type', 'I-object_type', 'O', 'B-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+find politicsnation with al sharpton
+slot_pred: ['O', 'B-object_name', 'I-object_name', 'I-object_name', 'I-object_name']
+intent_pred: SearchCreativeWork
+
+rate this album 0 points out of 6
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'B-rating_unit', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+
+add leah kauffman to my uncharted 4 nathan drake playlist
+slot_pred: ['O', 'B-artist', 'I-artist', 'O', 'B-playlist_owner', 'B-playlist', 'I-playlist', 'I-playlist', 'I-playlist', 'O']
+intent_pred: AddToPlaylist
+
+rate this album two out of 6
+slot_pred: ['O', 'B-object_select', 'B-object_type', 'B-rating_value', 'O', 'O', 'B-best_rating']
+intent_pred: RateBook
+

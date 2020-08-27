@@ -3,7 +3,6 @@ import torch.nn.functional as F
 from torch import nn
 from transformers import BertPreTrainedModel
 
-from crf import CRF
 from layers import KnowledgeIntegrator, BertEncoder, KnowledgeDecoder, StackDecoder, NoneDecoder
 
 
@@ -40,9 +39,6 @@ class BertWithKnowledgeBase(BertPreTrainedModel):
                                                   input_dim=bert_config.hidden_size,
                                                   num_intent_labels=self.num_intent_labels,
                                                   num_slot_labels=self.num_slot_labels)
-
-        if args.use_crf:
-            self.crf = CRF(num_tags=self.num_slot_labels)
 
     def forward(self,
                 input_ids,
@@ -125,26 +121,13 @@ class BertWithKnowledgeBase(BertPreTrainedModel):
 
         # Slot softmax.
         if slot_labels_ids is not None:
-            if self.args.use_crf:
-                # Make new slot_labels_ids, changing ignore_index(-100) to PAD index in slot label
-                # In torch-crf, if index is lower than 0, it makes error when indexing the list
-                padded_slot_labels_ids = slot_labels_ids.detach().clone()
-                padded_slot_labels_ids[padded_slot_labels_ids == self.args.ignore_index] = self.slot_pad_token_index
+            slot_loss_fct = nn.CrossEntropyLoss(ignore_index=self.args.ignore_index)
 
-                slot_loss = -1 * self.crf(
-                    slot_logits.transpose(0, 1),
-                    padded_slot_labels_ids.transpose(0, 1),
-                    mask=attention_mask.byte().transpose(0, 1),
-                    reduction='mean'
-                )  # negative log-likelihood.
-            else:
-                slot_loss_fct = nn.CrossEntropyLoss(ignore_index=self.args.ignore_index)
+            active_loss = active_tokens.view(-1)
+            active_logits = slot_logits.view(-1, self.num_slot_labels)[active_loss]
+            active_labels = slot_labels_ids.view(-1)[active_loss]
 
-                active_loss = active_tokens.view(-1)
-                active_logits = slot_logits.view(-1, self.num_slot_labels)[active_loss]
-                active_labels = slot_labels_ids.view(-1)[active_loss]
-
-                slot_loss = slot_loss_fct(active_logits, active_labels)
+            slot_loss = slot_loss_fct(active_logits, active_labels)
 
             total_loss += self.args.slot_loss_coef * slot_loss
 

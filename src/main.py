@@ -3,6 +3,7 @@ import time
 
 import torch
 
+from predictor import Predictor
 from trainer import Trainer
 from utils import init_logger, load_tokenizer, set_seed
 from data_loader import load_and_cache_dataset
@@ -64,13 +65,10 @@ parser.add_argument('--slot_loss_coef', type=float, default=1.0, help='Coefficie
 
 # For eval and pred.
 parser.add_argument("--do_eval", default=None, type=str, help="Path of saved model. '{record_path}/models/{epoch}'")
-parser.add_argument("--pred_dir", default="./preds", type=str, help="The input prediction dir.")
-parser.add_argument("--pred_input_file", default="preds.txt", type=str,
-                    help="The input text file of lines for prediction.")
+parser.add_argument("--do_pred", action="store_true", help="Whether to execute prediction.")
+parser.add_argument("--pred_dir", default="../preds", type=str, help="The input prediction dir.")
 parser.add_argument("--pred_output_file", default="outputs.txt", type=str, help="The output file of prediction.")
 
-# CRF option
-parser.add_argument("--use_crf", action="store_true", help="Whether to use CRF")
 parser.add_argument("--pad_label", default="PAD", type=str,
                     help="Pad token for slot label pad. (to be ignore when calculate loss)")
 
@@ -89,7 +87,7 @@ elif args.kb == 'none':
 
 args.record_path = '{}_{}_{}_{}_{}_{}'.format(
     args.task,
-    f'{args.decoder}{"+uni" if args.uni_intent else ""}{"+pos" if args.pos else ""}',
+    f'{args.decoder}{"+pos" if args.pos else ""}{"+uni" if args.uni_intent else ""}',
     f'seed{args.seed}' if args.do_train else 'eval-pred',
     f'seq{args.max_seq_len}',
     f'{args.kb}',
@@ -118,3 +116,7 @@ if __name__ == '__main__':
         trainer.load_model(args.do_eval)
         trainer.evaluate('dev', args.num_epochs, tensorboard_enabled=False)
         trainer.evaluate('test', args.num_epochs, tensorboard_enabled=False)
+
+    if args.do_pred:
+        predictor = Predictor(args=args, model=trainer.model, test_data=trainer.test_data)
+        predictor.predict()

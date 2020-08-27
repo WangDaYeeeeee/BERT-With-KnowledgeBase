@@ -172,23 +172,10 @@ class Trainer(object):
 
             # Slot prediction
             if slot_preds is None:
-                if self.args.use_crf:
-                    # decode() in `torchcrf` returns list with aits_best index directly
-                    crf_results = self.model.crf.decode(slot_logits.transpose(0, 1),
-                                                        mask=inputs['attention_mask'].byte().transpose(0, 1))
-                    slot_preds = np.array(np.array(crf_results))
-                else:
-                    slot_preds = slot_logits.detach().cpu().numpy()
-
+                slot_preds = slot_logits.detach().cpu().numpy()
                 out_slot_labels_ids = inputs['slot_labels_ids'].detach().cpu().numpy()
             else:
-                if self.args.use_crf:
-                    crf_results = self.model.crf.decode(slot_logits.transpose(0, 1),
-                                                        mask=inputs['attention_mask'].byte().transpose(0, 1))
-                    slot_preds = np.append(slot_preds, np.array(crf_results), axis=0)
-                else:
-                    slot_preds = np.append(slot_preds, slot_logits.detach().cpu().numpy(), axis=0)
-
+                slot_preds = np.append(slot_preds, slot_logits.detach().cpu().numpy(), axis=0)
                 out_slot_labels_ids = np.append(
                     out_slot_labels_ids, inputs['slot_labels_ids'].detach().cpu().numpy(), axis=0)
 
@@ -196,8 +183,7 @@ class Trainer(object):
         intent_preds = np.argmax(intent_preds, axis=1)
 
         # Slot result.
-        if not self.args.use_crf:
-            slot_preds = np.argmax(slot_preds, axis=2)
+        slot_preds = np.argmax(slot_preds, axis=2)
         slot_label_map = {i: label for i, label in enumerate(self.slot_label_lst)}
         out_slot_label_list = [[] for _ in range(out_slot_labels_ids.shape[0])]
         slot_preds_list = [[] for _ in range(out_slot_labels_ids.shape[0])]
