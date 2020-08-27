@@ -1,6 +1,4 @@
 data/kb/nell/NELL.08m.1115.esv.csv
-bert/
-data/cache/
 commands
 
 # Byte-compiled / optimized / DLL files
