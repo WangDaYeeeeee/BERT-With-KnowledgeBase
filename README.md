@@ -1,5 +1,11 @@
 # BERT-With-KnowledgeBase
 
+## Model
+
+<p float="left" align="center">
+    <img width="600" src="res/model.png" />
+</p>
+
 ## Dependencies
 
 - python>=3.5
