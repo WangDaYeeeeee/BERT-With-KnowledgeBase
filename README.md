@@ -2,8 +2,14 @@
 
 ## Model
 
+- Overall
 <p float="left" align="center">
     <img width="600" src="res/model.png" />
+</p>
+
+- BERT + Intent Decoder
+<p float="left" align="center">
+    <img width="600" src="res/layer_1.png" />
 </p>
 
 ## Dependencies
@@ -41,9 +47,9 @@ $ python main.py --task snips --pos --schedule cosine --batch_size 64 --num_epoc
 
 ## Results
 
-- Evaluate model every 5/10 epochs on ATIS/Snips dataset.
-- Select hyper-params by dev set and evaluate on test set.
-- Only test with `uncased` model.
+- Evaluated model every 5/10 epochs on ATIS/Snips dataset.
+- Selected hyper-parameters on dev set and evaluated model on test set.
+- Only tested with `uncased` model.
 
 |           |                  | Intent acc (%) | Slot F1 (%) | Sentence acc (%) |
 | --------- | ---------------- | -------------- | ----------- | ---------------- |
