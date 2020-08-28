@@ -1,0 +1,21 @@
+Sentence 1    please find a flight from las vegas to michigan
+
+Gold, predicted by our model:
+Intent        atis_flight
+Slots         O, O, O, O, O, B-fromloc.city_name, I-fromloc.city_name, O, B-toloc.state_name
+
+Predicted by Bert-SLU model:
+Intent        atis_flight
+Slots         O, O, O, O, O, B-fromloc.city_name, I-fromloc.city_name, O, B-toloc.city_name
+
+
+
+
+Sentence 2    please find a flight that goes from kansas city to newark to orlando back to kansas city
+
+Gold, predicted by our model:
+Intent        atis_flight
+Slots         O, O, O, O, O, O, O, B-fromloc.city_name, I-fromloc.city_name, O, B-toloc.city_name, O, B-toloc.city_name, O, O, B-toloc.city_name, I-toloc.city_name
+Predicted by Bert-SLU model:
+Intent        atis_flight
+Slots         O, O, O, O, O, O, O, B-fromloc.city_name, I-fromloc.city_name, O, B-toloc.city_name, O, B-toloc.city_name, O, O, B-toloc.city_name, I-fromloc.city_name
