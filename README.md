@@ -2,14 +2,8 @@
 
 ## Model
 
-- Overall
 <p float="left" align="center">
-    <img width="600" src="res/model.png" />
-</p>
-
-- BERT + Intent Decoder
-<p float="left" align="center">
-    <img width="300" src="res/layer_1.png" />
+    <img width="800" src="res/model.png" />
 </p>
 
 ## Dependencies
