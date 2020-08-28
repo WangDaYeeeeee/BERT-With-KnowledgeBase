@@ -3,7 +3,7 @@
 ## Model
 
 <p float="left" align="center">
-    <img width="1000" src="res/model.png" />
+    <img width="1000" src="res/architecture.png" />
 </p>
 
 ## Dependencies
