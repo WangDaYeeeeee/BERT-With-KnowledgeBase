@@ -9,7 +9,7 @@
 
 - BERT + Intent Decoder
 <p float="left" align="center">
-    <img width="600" src="res/layer_1.png" />
+    <img width="300" src="res/layer_1.png" />
 </p>
 
 ## Dependencies
