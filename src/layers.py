@@ -449,6 +449,7 @@ class SimpleDecoder(nn.Module):
             seq_input=torch.cat([intent_features, slot_features, knowledge], dim=2)[:, 1:-1, :],
             seq_lens=seq_lens
         )
+        hidden = torch.cat([padding, hidden, padding], dim=1)
 
         # [batch_size, max_seq_len, input_dim + 2 * KB_EMBEDDING_DIM]
         intent_logits = torch.cat([intent_features, hidden], dim=2)
