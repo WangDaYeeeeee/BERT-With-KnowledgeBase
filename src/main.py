@@ -14,7 +14,7 @@ parser.add_argument("--task", default='atis', type=str, choices=['atis', 'snips'
                     help="The name of the task to train.")
 parser.add_argument("--kb", default='both', type=str, choices=['both', 'wn', 'nell', 'none'],
                     help="The composition of knowledge base.")
-parser.add_argument("--decoder", default="stack", type=str, choices=['stack', 'unstack', 'none'],
+parser.add_argument("--decoder", default="stack", type=str, choices=['stack', 'unstack', 'simple', 'none'],
                     help="Knowledge decoder type.")
 parser.add_argument("--schedule", default="linear", type=str, choices=['linear', 'cosine', 'constant'],
                     help="The schedule of training process.")

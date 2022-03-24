@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from torch import nn
 from transformers import BertPreTrainedModel
 
-from layers import KnowledgeIntegrator, BertEncoder, KnowledgeDecoder, StackDecoder, NoneDecoder
+from layers import KnowledgeIntegrator, BertEncoder, KnowledgeDecoder, StackDecoder, NoneDecoder, SimpleDecoder
 
 
 class BertWithKnowledgeBase(BertPreTrainedModel):
@@ -28,6 +28,11 @@ class BertWithKnowledgeBase(BertPreTrainedModel):
                                             input_dim=bert_config.hidden_size,
                                             num_intent_labels=self.num_intent_labels,
                                             num_slot_labels=self.num_slot_labels)
+        elif self.args.decoder == 'simple':
+            self.simple_decoder = SimpleDecoder(args,
+                                                input_dim=bert_config.hidden_size,
+                                                num_intent_labels=self.num_intent_labels,
+                                                num_slot_labels=self.num_slot_labels)
         else:  # stack/unstack.
             if self.knowledge_enabled:
                 self.knowledge_decoder = KnowledgeDecoder(args,
@@ -92,6 +97,12 @@ class BertWithKnowledgeBase(BertPreTrainedModel):
                                                            slot_features=slot_features,
                                                            knowledge=knowledge,
                                                            knowledge_contexts=knowledge_contexts)
+        elif self.args.decoder == 'simple':
+            # [batch_size, max_seq_len, num_intent_labels], [batch_size, max_seq_len, num_slot_labels]
+            intent_logits, slot_logits = self.simple_decoder(intent_features=intent_features,
+                                                             slot_features=slot_features,
+                                                             knowledge=knowledge,
+                                                             attention_mask=attention_mask)
         else:
             if self.knowledge_enabled:
                 # [batch_size, max_seq_len, num_intent_labels], [batch_size, max_seq_len, num_slot_labels]
